@@ -1,0 +1,4253 @@
+galliumos-meta (2.195) vivid; urgency=medium
+
+  * Change for galliumos
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 06 Oct 2015 22:27:32 -0700
+
+galliumos-meta (2.194) vivid; urgency=medium
+
+  * Change for galliumos
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 06 Oct 2015 22:27:32 -0700
+
+galliumos-meta (2.193) vivid; urgency=medium
+
+  * Change for galliumos
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 06 Oct 2015 22:27:32 -0700
+
+galliumos-meta (2.192) vivid; urgency=medium
+
+  * Change for galliumos
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 06 Oct 2015 22:27:32 -0700
+
+galliumos-meta (2.191) vivid; urgency=medium
+
+  * Modified for galliumos
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 05 Oct 2015 22:27:32 -0700
+
+xubuntu-meta (2.190) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-guru to core-recommends, desktop-recommends
+  * Removed ttf-punjabi-fonts from core-recommends, desktop-recommends
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 16 Mar 2015 22:27:32 -0700
+
+xubuntu-meta (2.189) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added light-locker to core-recommends
+  * Added lightdm-gtk-greeter-settings to desktop-recommends
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Thu, 19 Feb 2015 18:39:11 -0500
+
+xubuntu-meta (2.188) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed plymouth-theme-xubuntu-logo from core
+  * Removed plymouth-theme-xubuntu-text from core
+  * Removed xubuntu-icon-theme from core
+  * Removed xubuntu-wallpapers from core
+  * Moved gcc to core-recommends
+  * Moved libnotify-bin to core-recommends
+  * Moved make to core-recommends
+  * Moved network-manager-gnome to core-recommends
+  * Moved software-properties-gtk to desktop-recommends
+  * Moved xdg-utils to desktop
+  * Moved xfce4-terminal to core-recommends
+  * Moved xubuntu-docs to core-recommends
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 16 Feb 2015 18:49:59 -0500
+
+xubuntu-meta (2.187) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed light-locker-settings from desktop-recommends
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Wed, 14 Jan 2015 18:58:47 -0500
+
+xubuntu-meta (2.186) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-extras-keyring from core, desktop (LP: #1409555)
+
+ -- Dimitri John Ledkov <dimitri.j.ledkov@linux.intel.com>  Tue, 13 Jan 2015 00:40:41 +0000
+
+xubuntu-meta (2.185) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added evince-gtk to desktop-recommends
+  * Added ttf-ancient-fonts-symbola to core-recommends, desktop-
+    recommends
+  * Removed evince from desktop-recommends
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 02 Nov 2014 21:52:40 -0500
+
+xubuntu-meta (2.184) utopic; urgency=medium
+
+  * Refreshed dependencies (LP: #1366388)
+  * Added gnome-mines to desktop-recommends [amd64 arm64 armhf i386
+    ppc64el]
+  * Added printer-driver-brlaser to core-recommends, desktop-recommends
+  * Removed gnomine from desktop-recommends [amd64 arm64 armhf i386
+    ppc64el]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Thu, 02 Oct 2014 21:32:38 -0600
+
+xubuntu-meta (2.183) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed xchat from desktop-recommends
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Sun, 10 Aug 2014 10:21:04 -0400
+
+xubuntu-meta (2.182) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added thunderbird to desktop-recommends [arm64 ppc64el]
+  * Removed indicator-power from desktop-recommends
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Tue, 29 Jul 2014 23:22:16 -0400
+
+xubuntu-meta (2.181) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox to desktop-recommends [arm64 ppc64el]
+  * Added inxi to desktop-recommends
+  * Added xubuntu-core seed and package
+
+ -- Sean Davis <smd.seandavis@gmail.com>  Mon, 07 Jul 2014 19:45:47 -0400
+
+xubuntu-meta (2.180) trusty; urgency=low
+
+  * Refreshed dependencies
+  * See LP:1284635 for the bug that's caused the removal of ibus from Xubuntu
+  * Removed ibus from desktop-recommends [amd64 arm64 armhf powerpc
+    ppc64el]
+  * Removed ibus-gtk from desktop-recommends [amd64 arm64 armhf powerpc
+    ppc64el]
+  * Removed ibus-pinyin from desktop-recommends [amd64 arm64 armhf
+    powerpc ppc64el]
+  * Removed ibus-table from desktop-recommends [amd64 arm64 armhf
+    powerpc ppc64el]
+
+ -- Micah Gersten <micahg@ubuntu.com>  Wed, 09 Apr 2014 21:59:07 -0500
+
+xubuntu-meta (2.179) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-power to desktop-recommends [arm64 ppc64el]
+  * Added indicator-sound to desktop-recommends [arm64 ppc64el]
+  * Removed ibus-pinyin-db-android from desktop-recommends [amd64 arm64
+    armhf powerpc ppc64el]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sat, 22 Mar 2014 19:30:40 -0600
+
+xubuntu-meta (2.178) trusty; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-application to desktop-recommends
+  * Added indicator-messages to desktop-recommends
+  * Added indicator-power to desktop-recommends [amd64 armhf i386
+    powerpc]
+  * Added indicator-sound to desktop-recommends [amd64 armhf i386
+    powerpc]
+  * Added light-locker-settings to desktop-recommends
+  * Added xubuntu-community-wallpapers to desktop-recommends
+  * Removed indicator-application-gtk2 from desktop-recommends
+  * Removed indicator-sound-gtk2 from desktop-recommends
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 08 Mar 2014 01:12:25 +0000
+
+xubuntu-meta (2.177) trusty; urgency=low
+
+  * Refreshed dependencies (LP: #1286954)
+  * Added fonts-droid to desktop-recommends
+  * Added gnome-calculator to desktop-recommends
+  * Added gucharmap to desktop-recommends [ppc64el]
+  * Added light-locker to desktop-recommends
+  * Added memtest86+ to desktop [amd64 i386]
+  * Added menulibre to desktop-recommends
+  * Added mugshot to desktop-recommends
+  * Added printer-driver-min12xxw to desktop-recommends [ppc64el]
+  * Added transmission-gtk to desktop-recommends [ppc64el]
+  * Added ubuntu-drivers-common to desktop [ppc64el]
+  * Added xfce4-whiskermenu-plugin to desktop-recommends
+  * Removed alacarte from desktop-recommends
+  * Removed gcalctool from desktop-recommends
+  * Removed gnome-time-admin from desktop-recommends
+  * Removed gthumb from desktop-recommends
+  * Removed screensaver-default-images from desktop-recommends
+  * Removed ttf-wqy-microhei from desktop-recommends
+  * Removed xscreensaver from desktop-recommends
+  * Removed xscreensaver-data from desktop-recommends
+  * Removed xscreensaver-gl from desktop-recommends
+  * Moved software-center to desktop-recommends
+
+ -- Micah Gersten <micahg@ubuntu.com>  Sun, 02 Mar 2014 20:37:01 -0600
+
+xubuntu-meta (2.176) trusty; urgency=medium
+
+  * Build for ppc64el.
+  * Refreshed dependencies
+  * Added cups-filters to desktop-recommends [arm64 armhf ppc64el]
+  * Added transmission-gtk to desktop-recommends [arm64]
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 30 Dec 2013 12:34:11 +0100
+
+xubuntu-meta (2.175) trusty; urgency=low
+
+  * update.cfg: Switch to trusty.
+
+  * Refreshed dependencies
+  * Removed foomatic-filters from desktop
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sat, 07 Dec 2013 13:48:02 +0000
+
+xubuntu-meta (2.174) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-screenshooter to desktop-recommends [arm64]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 16 Oct 2013 16:43:02 +0100
+
+xubuntu-meta (2.173) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added abiword to desktop-recommends [arm64]
+  * Added abiword-plugin-grammar to desktop-recommends [arm64]
+  * Added abiword-plugin-mathview to desktop-recommends [arm64]
+  * Added pidgin-otr to desktop-recommends [arm64]
+  * Added whoopsie to desktop-recommends [arm64]
+  * Added xfce4-indicator-plugin to desktop-recommends [arm64]
+  * Added xfce4-notes-plugin to desktop-recommends [arm64]
+  * Added xfce4-quicklauncher-plugin to desktop-recommends [arm64]
+  * Added xfce4-systemload-plugin to desktop-recommends [arm64]
+  * Added xfce4-verve-plugin to desktop-recommends [arm64]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 16 Oct 2013 11:52:31 +0100
+
+xubuntu-meta (2.172) saucy; urgency=low
+
+  * Build for AArch64.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 16 Oct 2013 09:46:05 +0200
+
+xubuntu-meta (2.171) saucy; urgency=low
+
+  * Refreshed dependencies (LP: #1232027)
+  * Added pm-utils to desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Thu, 10 Oct 2013 05:49:59 -0600
+
+xubuntu-meta (2.170) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added gtk-theme-config to desktop-recommends lp: #1219592, #1228356
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Sep 2013 19:10:16 +0200
+
+xubuntu-meta (2.169) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Removed pidgin-microblog from desktop-recommends
+
+ -- Micah Gersten <micahg@ubuntu.com>  Tue, 27 Aug 2013 23:07:20 -0500
+
+xubuntu-meta (2.168) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added apt-offline to desktop-recommends (LP: #1183638)
+
+ -- Micah Gersten <micahg@ubuntu.com>  Wed, 17 Jul 2013 00:05:43 -0500
+
+xubuntu-meta (2.167) saucy; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-dejavu-core to desktop
+  * Removed firefox-gnome-support from desktop-recommends
+  * Removed ttf-dejavu-core from desktop
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 01 Jul 2013 11:59:47 +0100
+
+xubuntu-meta (2.166) saucy; urgency=low
+
+  * update.cfg: Switch to saucy.
+
+  * Refreshed dependencies
+  * Added libpam-systemd to desktop
+  * Removed libgd2-xpm from desktop
+  * Removed libpam-ck-connector from desktop
+  * Removed libpam-xdg-support from desktop
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 02 Jun 2013 10:07:58 +0100
+
+xubuntu-meta (2.165) raring; urgency=low
+
+  * Refreshed dependencies
+  * Added gimp to desktop-recommends
+  * Added gnumeric to desktop-recommends
+  * Added mousepad to desktop-recommends
+  * Removed gtk2-engines from desktop
+  * Removed leafpad from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 03 Mar 2013 12:16:11 +0100
+
+xubuntu-meta (2.164) raring; urgency=low
+
+  * Refreshed dependencies
+  * Removed linux-headers-generic from desktop-recommends [amd64 i386]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 21 Dec 2012 19:53:15 -0700
+
+xubuntu-meta (2.163) raring; urgency=low
+
+  * update.cfg: Switch to raring.  Drop armel.
+  * Refreshed dependencies
+  * Added im-config to desktop-recommends
+  * Removed im-switch from desktop-recommends
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 10 Dec 2012 12:26:51 +0000
+
+xubuntu-meta (2.162) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added libpam-xdg-support to desktop
+
+ -- Micah Gersten <micahg@ubuntu.com>  Wed, 03 Oct 2012 13:13:47 -0500
+
+xubuntu-meta (2.161) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Removed aisleriot from desktop-recommends [amd64 armel armhf i386]
+
+ -- Micah Gersten <micahg@ubuntu.com>  Thu, 20 Sep 2012 11:52:36 -0500
+
+xubuntu-meta (2.160) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-sound-gtk2 to desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 17 Sep 2012 21:45:29 +0200
+
+xubuntu-meta (2.159) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-application-gtk2 to desktop-recommends
+  * Added xfce4-indicator-plugin to desktop-recommends
+  * Removed gnumeric from desktop-recommends
+  * Removed usb-creator-gtk from desktop-recommends [amd64 i386]
+
+ -- Micah Gersten <micahg@ubuntu.com>  Mon, 10 Sep 2012 09:09:19 -0500
+
+xubuntu-meta (2.158) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Removed gimp from desktop-recommends
+  * Removed gnome-mahjongg from desktop-recommends [amd64 armel armhf
+    i386]
+
+ -- Micah Gersten <micahg@ubuntu.com>  Sun, 09 Sep 2012 14:51:29 -0500
+
+xubuntu-meta (2.157) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Removed xfce4-datetime-plugin from desktop-recommends, xfce4-panel's
+    clock plugin provides the same features in quantal.
+  * Removed temporarily xfce4-indicator-plugin, indicator-application-gtk2
+    and indicator-sound-gtk2 from desktop-recommends until we're ready to
+    reupload gtk2 indicators.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 29 Aug 2012 02:23:57 +0200
+
+xubuntu-meta (2.156) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-freefont-ttf to desktop
+  * Removed jockey-gtk from desktop-recommends
+  * Removed synaptic from desktop-recommends
+
+ -- Micah Gersten <micahg@ubuntu.com>  Sun, 26 Aug 2012 01:38:49 -0500
+
+xubuntu-meta (2.155) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-mahjongg to desktop-recommends [amd64 armel armhf i386]
+  * Removed mahjongg from desktop-recommends [amd64 armel armhf i386]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 17 Jul 2012 03:48:31 -0600
+
+xubuntu-meta (2.154) quantal; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-lklug-sinhala to desktop-recommends
+  * Added fonts-sil-abyssinica to desktop-recommends
+  * Added fonts-sil-padauk to desktop-recommends
+  * Added fonts-tibetan-machine to desktop-recommends
+  * Added ubuntu-drivers-common to desktop
+  * Added whoopsie to desktop-recommends lp: #1001630
+  * Removed nvidia-common from desktop [amd64 i386]
+  * Removed rarian-compat from desktop
+  * Removed ttf-freefont from desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 15 Jul 2012 13:09:09 +0200
+
+xubuntu-meta (2.153) quantal; urgency=low
+
+  * update.cfg: updated for quantal.
+  * Refreshed dependencies
+  * Added libxfce4ui-utils to desktop-recommends
+  * Removed xfce4-utils from desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 19 May 2012 20:34:40 +0200
+
+xubuntu-meta (2.152) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-datetime-plugin to desktop-recommends lp: #972402
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 04 Apr 2012 00:03:53 +0200
+
+xubuntu-meta (2.151) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer0.10-pulseaudio to desktop-recommends
+  * Added pavucontrol to desktop-recommends lp: #961744
+  * Removed gstreamer0.10-alsa from desktop-recommends
+  * Removed xfce4-mixer from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 22 Mar 2012 20:50:28 +0100
+
+xubuntu-meta (2.150) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-generic to desktop-recommends [i386]
+  * Removed linux-headers-generic-pae from desktop-recommends [i386]
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 20 Mar 2012 01:21:29 +0100
+
+xubuntu-meta (2.149) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added alacarte to desktop-recommends (LP: #927224)
+  * Removed dc from desktop
+  * Removed lftp from desktop
+  * Removed quadrapassel from desktop-recommends [amd64 armel armhf
+    i386]
+
+ -- Micah Gersten <micahg@ubuntu.com>  Tue, 28 Feb 2012 04:24:45 -0600
+
+xubuntu-meta (2.148) precise; urgency=low
+
+  * No Change upload to restore deleted binaries
+
+ -- Micah Gersten <micahg@ubuntu.com>  Thu, 23 Feb 2012 16:10:19 -0600
+
+xubuntu-meta (2.147) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added printer-driver-pnm2ppa to desktop
+  * Removed gtk2-engines-murrine from desktop
+  * Removed pnm2ppa from desktop
+  * Moved xubuntu-artwork to desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 19 Feb 2012 12:48:10 +0100
+
+xubuntu-meta (2.146) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added printer-driver-foo2zjs to desktop-recommends
+  * Added printer-driver-min12xxw to desktop-recommends
+  * Added printer-driver-ptouch to desktop-recommends
+  * Added printer-driver-pxljr to desktop-recommends
+  * Added printer-driver-sag-gdi to desktop-recommends
+  * Added printer-driver-splix to desktop-recommends
+  * Removed foo2zjs from desktop-recommends
+  * Removed min12xxw from desktop-recommends
+  * Removed ptouch-driver from desktop-recommends
+  * Removed pxljr from desktop-recommends
+  * Removed rastertosag-gdi from desktop-recommends
+  * Removed splix from desktop-recommends
+  * Removed tango-icon-theme from desktop lp: #932686
+  * Removed tango-icon-theme-common from desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 15 Feb 2012 21:49:40 +0100
+
+xubuntu-meta (2.145) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-opensymbol to desktop-recommends
+  * Added fonts-thai-tlwg to desktop-recommends
+  * Added xfce4-xkb-plugin to desktop-recommends
+  * Removed ttf-opensymbol from desktop-recommends
+  * Removed ttf-thai-tlwg from desktop-recommends
+  * Removed vinagre from desktop-recommends
+  * Removed xfce4-fsguard-plugin from desktop-recommends
+  * Removed xfce4-mount-plugin from desktop-recommends
+  * Removed xfce4-smartbookmark-plugin from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 09 Feb 2012 21:57:09 +0100
+
+xubuntu-meta (2.144) precise; urgency=low
+
+  * Refreshed dependencies
+  * Replace ttf-unfonts-core with fonts-nanum in desktop-recommends
+    (LP: #846353)
+  * Added printer-driver-c2esp to desktop-recommends
+  * Removed c2esp from desktop-recommends
+  * Removed x-ttcidfont-conf from desktop
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Mon, 06 Feb 2012 10:57:11 +0100
+
+xubuntu-meta (2.143) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added mahjongg to desktop-recommends [amd64 armel armhf i386]
+  * Removed gnome-mahjongg from desktop-recommends [amd64 armel armhf
+    i386]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 18 Jan 2012 20:29:42 -0700
+
+xubuntu-meta (2.142) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-generic-pae to desktop-recommends [i386]
+  * Removed gtk2-engines-xfce from desktop
+  * Removed linux-headers-generic from desktop-recommends [i386]
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 10 Jan 2012 12:19:06 +0000
+
+xubuntu-meta (2.141) precise; urgency=low
+
+  * Add armhf
+  * Refreshed dependencies
+  * Added fonts-khmeros-core to desktop-recommends
+  * Added fonts-liberation to desktop-recommends
+  * Added fonts-takao-pgothic to desktop-recommends
+  * Removed ttf-khmeros-core from desktop-recommends
+  * Removed ttf-liberation from desktop-recommends
+  * Removed ttf-takao-pgothic from desktop-recommends
+
+ -- Micah Gersten <micahg@ubuntu.com>  Sun, 11 Dec 2011 02:14:35 -0600
+
+xubuntu-meta (2.140) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-kacst-one to desktop-recommends
+  * Added fonts-lao to desktop-recommends
+  * Removed gnome-codec-install from desktop-recommends
+  * Removed ttf-kacst-one from desktop-recommends
+  * Removed ttf-lao from desktop-recommends
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 15 Nov 2011 11:46:47 +0000
+
+xubuntu-meta (2.139) precise; urgency=low
+
+  * update.cfg: refreshed for precise.
+  * Refreshed dependencies
+  * Added gvfs-backends to desktop-recommends lp: #878682
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 30 Oct 2011 19:24:12 +0100
+
+xubuntu-meta (2.138) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added blueman to desktop-recommends (lp: #836324)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 29 Sep 2011 00:09:07 +0200
+
+xubuntu-meta (2.137) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added aisleriot to desktop-recommends [amd64 armel i386] (LP: #833550)
+  * Added c2esp to desktop-recommends
+  * Added ptouch-driver to desktop-recommends
+  * Added rastertosag-gdi to desktop-recommends
+
+ -- Micah Gersten <micahg@ubuntu.com>  Thu, 25 Aug 2011 04:33:26 -0500
+
+xubuntu-meta (2.136) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added gthumb to desktop-recommends
+  * Added pastebinit to desktop-recommends
+  * Removed accountsservice from desktop
+    - This is now recommended by liblightdm-gobject-1-0
+  * Moved cups to desktop-recommends (LP: #302272)
+  * Moved cups-bsd to desktop-recommends
+  * Moved cups-client to desktop-recommends
+
+ -- Micah Gersten <micahg@ubuntu.com>  Wed, 10 Aug 2011 03:23:51 -0500
+
+xubuntu-meta (2.135) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added accountsservice to desktop
+  * Added evince to desktop-recommends
+  * Removed aisleriot from desktop-recommends [amd64 armel i386]
+  * Removed epdfview from desktop-recommends
+
+ -- Micah Gersten <micahg@ubuntu.com>  Tue, 02 Aug 2011 12:59:46 -0500
+
+xubuntu-meta (2.134) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added lightdm-gtk-greeter to desktop
+  * Added pidgin-microblog to desktop-recommends
+  * Removed lightdm-greeter-example-gtk from desktop
+
+ -- Micah Gersten <micahg@ubuntu.com>  Thu, 28 Jul 2011 10:57:02 -0500
+
+xubuntu-meta (2.133) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-application-gtk2 to desktop-recommends
+  * Added indicator-sound-gtk2 to desktop-recommends
+  * Removed indicator-application from desktop-recommends
+  * Removed indicator-sound from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 09 Jul 2011 22:52:17 +0200
+
+xubuntu-meta (2.132) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added file-roller to desktop-recommends
+  * Added libnotify-bin to desktop-recommends
+  * Added xul-ext-ubufox to desktop-recommends
+  * Removed aisleriot from desktop-recommends [powerpc]
+  * Removed gnome-mahjongg from desktop-recommends [powerpc]
+  * Removed gnome-sudoku from desktop-recommends [powerpc]
+  * Removed gnomine from desktop-recommends [powerpc]
+  * Removed quadrapassel from desktop-recommends [powerpc]
+  * Removed ubufox from desktop-recommends
+  * Removed xarchiver from desktop-recommends
+  * Moved desktop-file-utils to desktop-recommends
+  * Moved synaptic to desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 30 Jun 2011 22:14:37 +0200
+
+xubuntu-meta (2.131) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added epdfview to desktop-recommends
+  * Removed evince from desktop-recommends
+  * debian/rules: drop gnumeric-gtk from the sed as it doesn't exist anymore.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 19 Jun 2011 18:23:46 +0200
+
+xubuntu-meta (2.130) oneiric; urgency=low
+
+  * Refreshed dependencies
+  * Added leafpad to desktop-recommends
+  * Added xarchiver to desktop-recommends
+  * Added xfce4-places-plugin to desktop-recommends
+  * Removed browser-plugin-parole from desktop-recommends
+  * Removed file-roller from desktop-recommends
+  * Removed mousepad from desktop-recommends
+  * Removed xfprint4 from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 12 Jun 2011 16:38:32 +0200
+
+xubuntu-meta (2.129) oneiric; urgency=low
+
+  * update.cfg: refreshed for oneiric.
+  * Refreshed dependencies
+  * Added lightdm to desktop
+  * Added lightdm-greeter-example-gtk to desktop
+  * Removed gdm from desktop
+  * Removed smbclient from desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 08 Jun 2011 08:13:10 +0200
+
+xubuntu-meta (2.128) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-time-admin to desktop-recommends [armel powerpc]
+  * Removed indicator-messages from desktop-recommends (LP: #757754)
+    This package will be added as a recommends of 
+    "xfce4-indicator-plugin" and removing it from the explicit
+    list means that the upgrade will not bring in gnome-panel
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Mon, 18 Apr 2011 13:34:34 +0200
+
+xubuntu-meta (2.127) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-time-admin to desktop-recommends [amd64 i386]
+  * Added nvidia-common to desktop [amd64 i386]
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 15 Mar 2011 22:56:13 +0100
+
+xubuntu-meta (2.126) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added indicator-application to desktop-recommends
+  * Added indicator-messages to desktop-recommends
+  * Added indicator-sound to desktop-recommends
+  * Added language-selector-gnome to desktop
+  * Added xfce4-indicator-plugin to desktop-recommends
+  * Removed language-selector from desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Feb 2011 22:58:43 +0100
+
+xubuntu-meta (2.125) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added gmusicbrowser to desktop-recommends
+  * Removed exaile from desktop-recommends
+  * Removed linux-headers-dove from desktop-recommends [armel]
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Feb 2011 19:33:08 +0100
+
+xubuntu-meta (2.124) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added rfkill to desktop
+  * Removed thunar-thumbnailers from desktop-recommends
+  * Moved xfce4-appfinder to desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 10 Feb 2011 20:45:15 +0100
+
+xubuntu-meta (2.123) natty; urgency=low
+
+  * Refreshed dependencies
+  * Removed hal from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 23 Jan 2011 18:17:52 +0100
+
+xubuntu-meta (2.122) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-notifyd to desktop
+  * Removed libgnome2-perl from desktop-recommends
+  * Removed notify-osd from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 22 Dec 2010 00:37:25 +0100
+
+xubuntu-meta (2.121) natty; urgency=low
+
+  * Refreshed dependencies
+  * Removed xfce4-places-plugin from desktop-recommends, until it is ported
+    to gio.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 12 Dec 2010 00:51:25 +0100
+
+xubuntu-meta (2.120) natty; urgency=low
+
+  * Refreshed dependencies
+  * Added tumbler to desktop
+  * Removed xfswitch-plugin from desktop-recommends
+  * Moved hal to desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 06 Dec 2010 22:56:40 +0100
+
+xubuntu-meta (2.119) natty; urgency=low
+
+  * Refreshed dependencies
+  * Removed xfce4-clipman-plugin from desktop-recommends
+  * Removed xfce4-xkb-plugin from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 05 Dec 2010 11:47:59 +0100
+
+xubuntu-meta (2.118) natty; urgency=low
+
+  * update.cfg: Switch to natty.
+  * Refreshed dependencies
+  * Removed gdebi from desktop
+  * Removed screen from desktop
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 26 Nov 2010 18:18:48 +0000
+
+xubuntu-meta (2.117) maverick; urgency=low
+
+  * Refreshed dependencies to get unadvertised changes from platform.maverick.
+  * Added ttf-ubuntu-font-family to desktop-recommends
+  * Added ubuntu-extras-keyring to desktop
+
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 02 Oct 2010 16:03:34 +0200
+
+xubuntu-meta (2.116) maverick; urgency=low
+
+  * Remove some cruft related to removed architectures.
+  * Refreshed dependencies
+  * Added foomatic-db-compressed-ppds to desktop
+  * Removed foomatic-db from desktop
+  * Removed foomatic-db-engine from desktop
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 06 Sep 2010 12:48:08 +0100
+
+xubuntu-meta (2.115) maverick; urgency=low
+
+  * Drop ia64 and sparc support.
+  * Refreshed dependencies
+  * Removed linux-headers-imx51 from desktop-recommends [armel]
+  * Removed xfwm4-themes from desktop-recommends (too many unused themes by
+    default, and some of them make X crash, cf. lp #573516)
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 04 Sep 2010 12:53:39 +0200
+
+xubuntu-meta (2.114) maverick; urgency=low
+
+  * debian/control: bumped Standards-Version to 3.9.1.
+  * Refreshed dependencies
+  * Added ibus-pinyin to desktop-recommends
+  * Added ibus-pinyin-db-android to desktop-recommends
+  * Removed bogofilter from desktop-recommends
+  * Removed cdparanoia from desktop-recommends
+  * Removed ibus-m17n from desktop-recommends
+  * Removed libgl1-mesa-dri from desktop-recommends
+  * Removed libgl1-mesa-glx from desktop
+  * Removed plymouth-x11 from desktop-recommends
+  * Removed pm-utils-powersave-policy from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 22 Aug 2010 13:05:52 +0200
+
+xubuntu-meta (2.113) maverick; urgency=low
+
+  * update.cfg: refreshed for maverick.
+  * Refreshed dependencies
+  * Added app-install-data-partner to desktop-recommends
+  * Added brltty to desktop-recommends
+  * Added brltty-x11 to desktop-recommends
+  * Added browser-plugin-parole to desktop-recommends
+  * Added desktop-file-utils to desktop
+  * Added espeak to desktop-recommends
+  * Added gcc to desktop-recommends
+  * Added gstreamer0.10-plugins-base-apps to desktop-recommends
+  * Added gvfs-fuse to desktop-recommends
+  * Added ibus to desktop-recommends
+  * Added ibus-gtk to desktop-recommends
+  * Added ibus-m17n to desktop-recommends
+  * Added ibus-table to desktop-recommends
+  * Added im-switch to desktop-recommends
+  * Added libgd2-xpm to desktop
+  * Added libgnome2-perl to desktop-recommends
+  * Added linux-headers-dove to desktop-recommends [armel]
+  * Added linux-headers-generic to desktop-recommends [amd64 i386]
+  * Added linux-headers-ia64 to desktop-recommends [ia64]
+  * Added linux-headers-imx51 to desktop-recommends [armel]
+  * Added linux-headers-sparc64 to desktop-recommends [sparc]
+  * Added make to desktop-recommends
+  * Added network-manager-pptp to desktop-recommends
+  * Added network-manager-pptp-gnome to desktop-recommends
+  * Added parole to desktop-recommends lp: #504341
+  * Added speech-dispatcher to desktop-recommends
+  * Added usb-creator-gtk to desktop-recommends [amd64 i386] lp: #590157
+  * Added xdg-user-dirs to desktop
+  * Added xdg-user-dirs-gtk to desktop
+  * Added xfburn to desktop-recommends
+  * Added xfce4-taskmanager to desktop-recommends
+  * Removed app-install-data-commercial from desktop-recommends
+  * Removed apt-xapian-index from desktop-recommends
+  * Removed brasero from desktop-recommends
+  * Removed cups-driver-gutenprint from desktop-recommends
+  * Removed dbus from desktop
+  * Removed dvd+rw-tools from desktop-recommends
+  * Removed gnome-system-monitor from desktop-recommends
+  * Removed libglib2.0-data from desktop
+  * Removed libsdl1.2debian-alsa from desktop-recommends lp: #588609
+  * Removed scim from desktop-recommends
+  * Removed scim-gtk2-immodule from desktop-recommends
+  * Removed scim-tables-additional from desktop-recommends [i386]
+  * Removed system-config-printer-udev from desktop-recommends
+  * Removed totem from desktop-recommends
+  * Removed usb-creator from desktop-recommends [amd64 i386]
+  * Removed vim-runtime from desktop
+  * Removed wodim from desktop-recommends
+  * Moved libpam-gnome-keyring to desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Thu, 24 Jun 2010 20:47:06 +0200
+
+xubuntu-meta (2.112) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added ttf-khmeros-core to desktop-recommends
+  * Added ttf-takao-pgothic to desktop-recommends
+  * Removed ttf-vlgothic from desktop-recommends
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 19 Apr 2010 01:22:51 -0700
+
+xubuntu-meta (2.111) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added ttf-kacst-one to desktop-recommends
+  * Added ttf-punjabi-fonts to desktop-recommends
+  * Removed ttf-kacst from desktop-recommends
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Sat, 17 Apr 2010 14:05:15 -0700
+
+xubuntu-meta (2.110) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added firefox to desktop-recommends [sparc]
+  * Added firefox-gnome-support to desktop-recommends [sparc]
+  * Added gstreamer0.10-alsa to desktop-recommends lp: #553925
+  * Added libsdl1.2debian-alsa to desktop-recommends
+  * Removed totem-gstreamer from desktop-recommends lp: #557802
+
+ -- Lionel Le Folgoc <mrpouit@gmail.com>  Sat, 10 Apr 2010 16:26:23 +0200
+
+xubuntu-meta (2.109) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added policykit-desktop-privileges to desktop-recommends
+  * Resync fonts packages with other seeds:
+    - Added ttf-liberation to desktop-recommends
+    - Added ttf-wqy-microhei to desktop-recommends lp: #541581
+    - Removed ttf-arphic-uming from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 31 Mar 2010 20:27:13 +0200
+
+xubuntu-meta (2.108) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Removed libsdl1.2debian-pulseaudio from desktop lp: #532534
+  * Removed xfce4-battery-plugin from desktop-recommends, xfce4-power-manager
+    is also seeded, and does a better job.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 06 Mar 2010 10:06:36 +0100
+
+xubuntu-meta (2.107) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Removed policykit-gnome from desktop lp: #530829
+  * Refreshed dependencies
+  * Added libsdl1.2debian-pulseaudio to desktop, we already ship
+    gstreamer0.10-pulseaudio instead of gstreamer0.10-alsa by default
+    because of gdm, so no need to keep libsdl1.2debian-alsa. lp: #531161
+  * Removed libsdl1.2debian-alsa from desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 03 Mar 2010 20:01:40 +0100
+
+xubuntu-meta (2.106) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added bluez to desktop-recommends
+  * Added bluez-alsa to desktop-recommends
+  * Added inputattach to desktop [sparc]
+  * Added plymouth-x11 to desktop-recommends
+  * Removed bluez-utils from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 23 Feb 2010 07:33:17 +0100
+
+xubuntu-meta (2.105) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added simple-scan to desktop-recommends
+  * Removed xsane from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 17 Feb 2010 23:25:05 +0100
+
+xubuntu-meta (2.104) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added xscreensaver to desktop-recommends
+  * Removed firefox from desktop-recommends [sparc]
+  * Removed firefox-gnome-support from desktop-recommends [sparc]
+  * Removed gnome-screensaver from desktop-recommends
+  * Removed inputattach from desktop [sparc]
+  * Removed ttf-wqy-microhei from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 30 Jan 2010 19:09:56 +0100
+
+xubuntu-meta (2.103) lucid; urgency=low
+
+  * Refreshed dependencies lp: #512340
+  * Added abiword-plugin-grammar to desktop-recommends
+  * Added abiword-plugin-mathview to desktop-recommends
+  * Added quadrapassel to desktop-recommends
+  * Removed abiword-plugins from desktop-recommends
+  * Removed gcc from desktop-recommends
+  * Removed gnometris from desktop-recommends
+  * Removed linux-headers-dove from desktop-recommends [armel]
+  * Removed linux-headers-generic from desktop-recommends [amd64 i386]
+  * Removed linux-headers-ia64 from desktop-recommends [ia64]
+  * Removed linux-headers-imx51 from desktop-recommends [armel]
+  * Removed linux-headers-powerpc from desktop-recommends [powerpc]
+  * Removed linux-headers-powerpc64-smp from desktop-recommends
+    [powerpc]
+  * Removed linux-headers-sparc64 from desktop-recommends [sparc]
+  * Removed make from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 25 Jan 2010 20:05:23 +0100
+
+xubuntu-meta (2.102) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added libsdl1.2debian-alsa to desktop
+  * Added pm-utils-powersave-policy to desktop-recommends
+  * Added ttf-wqy-microhei to desktop-recommends
+  * Removed ttf-wqy-zenhei from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 17 Jan 2010 15:26:08 +0100
+
+xubuntu-meta (2.101) lucid; urgency=low
+
+  * Refreshed dependencies
+  * Added software-center to desktop
+  * Removed gnome-app-install from desktop
+  * Removed usplash from desktop [amd64 armel i386 powerpc sparc]
+  * Removed xubuntu-artwork-usplash from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 12 Dec 2009 17:06:01 +0100
+
+xubuntu-meta (2.100) lucid; urgency=low
+
+  * update.cfg:
+    - refreshed for lucid
+    - drop lpia.
+  * Refreshed dependencies
+  * Added aisleriot to desktop-recommends
+  * Added gnome-mahjongg to desktop-recommends
+  * Added gnome-sudoku to desktop-recommends
+  * Added gnometris to desktop-recommends
+  * Added gnomine to desktop-recommends
+  * Removed gnome-games from desktop-recommends
+  * Removed sreadahead from desktop [amd64 armel i386 ia64 powerpc]
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 09 Dec 2009 14:49:50 +0100
+
+xubuntu-meta (2.99) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Removed xsplash from desktop (LP: #444521)
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 06 Oct 2009 15:31:28 -0300
+
+xubuntu-meta (2.98) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-dove to desktop-recommends [armel]
+  * Added xsplash to desktop
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sat, 03 Oct 2009 19:38:21 -0300
+
+xubuntu-meta (2.97) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-volumed to desktop-recommends
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 11 Sep 2009 14:12:43 -0300
+
+xubuntu-meta (2.96) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added kerneloops-daemon to desktop-recommends
+  * Added ttf-kacst to desktop-recommends
+  * Added ttf-vlgothic to desktop-recommends
+  * Added ttf-wqy-zenhei to desktop-recommends
+  * Removed ttf-arabeyes from desktop-recommends
+  * Removed ttf-sazanami-gothic from desktop-recommends
+  * Removed ttf-sazanami-mincho from desktop-recommends
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 04 Sep 2009 11:48:29 -0300
+
+xubuntu-meta (2.95) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added ristretto to desktop-recommends
+  * Added sreadahead to desktop [amd64 armel i386 ia64 lpia powerpc]
+  * Removed gpicview from desktop-recommends
+  * Removed readahead from desktop
+  * debian/control:
+    - Bumped standards version to 3.8.3.
+    - Added ${misc:Depends} to depends for xubuntu-desktop.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 26 Aug 2009 05:50:45 -0400
+
+xubuntu-meta (2.94) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Removed foomatic-db-hpijs from desktop-recommends
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 21 Aug 2009 12:57:24 +0200
+
+xubuntu-meta (2.93) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Removed ttf-bitstream-vera from desktop
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Wed, 19 Aug 2009 20:31:42 +0200
+
+xubuntu-meta (2.92) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added libasound2-plugins to desktop
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Thu, 13 Aug 2009 10:53:00 -0300
+
+xubuntu-meta (2.91) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added firefox-gnome-support to desktop-recommends
+  * Removed firefox-3.0-gnome-support from desktop-recommends
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 12 Aug 2009 16:15:34 -0300
+
+xubuntu-meta (2.90) karmic; urgency=low
+
+  * Convert to debhelper v7, with the new debhelper addon in germinate 1.18.
+  * Policy version 3.8.2.
+  * Update GPL application text, using a gnu.org URL rather than the FSF
+    postal address.
+
+  * Refreshed dependencies
+  * Removed acpid from desktop [amd64 i386 ia64 lpia]
+  * Moved cups-driver-gutenprint to desktop-recommends
+  * Moved system-config-printer-udev to desktop-recommends
+  * Moved xubuntu-artwork to desktop-recommends
+  * Moved xubuntu-artwork-usplash to desktop-recommends
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 11 Aug 2009 01:22:56 +0100
+
+xubuntu-meta (2.89) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added system-config-printer-udev to desktop
+  * Removed hal-cups-utils from desktop-recommends
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 31 Jul 2009 19:33:27 -0300
+
+xubuntu-meta (2.88) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added apmd to desktop [armel]
+  * Added xfce4-power-manager to desktop-recommends
+  * Added xfprint4 to desktop-recommends
+  * Removed gnome-power-manager from desktop-recommends
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Mon, 27 Jul 2009 18:54:26 -0300
+
+xubuntu-meta (2.87) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added exaile to desktop-recommends
+  * Added gnome-codec-install to desktop-recommends
+  * Added libpam-gnome-keyring to desktop
+  * Added usb-creator to desktop-recommends [amd64 i386 lpia]
+  * Removed listen from desktop-recommends
+  * Removed seahorse from desktop-recommends
+  * Removed xfce4-governor-plugin from desktop-recommends
+  * Removed xfprint4 from desktop-recommends
+  * Moved pcmciautils to desktop-recommends
+  * debian/control: Bumped standards version to 3.8.2.
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 14 Jul 2009 20:59:29 -0400
+
+xubuntu-meta (2.86) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added thunar-thumbnailers to desktop-recommends [armel]
+  * Added totem to desktop-recommends [sparc]
+  * Added xubuntu-artwork-usplash to desktop [ia64]
+  * Removed hotkey-setup from desktop-recommends [amd64 i386 lpia] (LP: #392567)
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 26 Jun 2009 13:10:36 -0300
+
+xubuntu-meta (2.85) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-dict to desktop-recommends
+  * Removed apmd from desktop [i386]
+  * Removed totem from desktop-recommends [sparc]
+  * Removed xfce4-dict-plugin from desktop-recommends
+  * update.cfg: Removed ports architecture hppa
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 09 Jun 2009 20:18:41 -0300
+
+xubuntu-meta (2.84) karmic; urgency=low
+
+  * Refreshed dependencies
+  * Added notify-osd to desktop-recommends
+  * Removed libgoffice-0-6 from desktop-recommends
+  * Removed notification-daemon from desktop-recommends
+  * Removed ssh-askpass-gnome from desktop-recommends
+  * Move to debhelper 5 and update standards version to 3.8.1
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 03 Jun 2009 06:27:28 -0300
+
+xubuntu-meta (2.83) karmic; urgency=low
+
+  * update.cfg: refreshed for karmic.
+  * Refreshed dependencies
+  * Added cups-driver-gutenprint to desktop
+  * Added gnumeric to desktop-recommends
+  * Added libgoffice-0-6 to desktop-recommends
+  * Added linux-headers-ia64 to desktop-recommends [ia64]
+  * Added thunderbird to desktop-recommends
+  * Removed cupsys-driver-gutenprint from desktop
+  * Removed gnumeric-gtk from desktop-recommends
+  * Removed libgoffice-gtk-0-6 from desktop-recommends
+  * Removed linux-headers-itanium from desktop-recommends [ia64]
+  * Removed mozilla-thunderbird from desktop-recommends
+  * Removed usplash from desktop [hppa ia64]
+  * Removed xubuntu-artwork-usplash from desktop [hppa ia64]
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 30 May 2009 00:22:55 +0200
+
+xubuntu-meta (2.82) jaunty; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-imx51 to desktop-recommends [armel]
+  * Removed linux-headers-mckinley from desktop-recommends [ia64]
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Thu, 09 Apr 2009 02:37:02 -0300
+
+xubuntu-meta (2.81) jaunty; urgency=low
+
+  * Refreshed dependencies
+  * Added gigolo to desktop-recommends
+  * Added xubuntu-artwork to desktop
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sun, 15 Mar 2009 12:30:44 -0300
+
+xubuntu-meta (2.80) jaunty; urgency=low
+
+  * Refreshed dependencies
+  * Added rarian-compat to desktop
+  * Removed scrollkeeper from desktop
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 11 Mar 2009 15:28:29 -0300
+
+xubuntu-meta (2.79) jaunty; urgency=low
+
+  * Refreshed dependencies
+  * Added firefox-3.0-gnome-support to desktop-recommends (LP: #336258)
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 04 Mar 2009 11:21:18 -0400
+
+xubuntu-meta (2.78) jaunty; urgency=low
+
+  * Refreshed dependencies
+  * Added xfswitch-plugin to desktop-recommends
+  * Removed powernowd from desktop-recommends
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 27 Feb 2009 13:13:20 -0400
+
+xubuntu-meta (2.77) jaunty; urgency=low
+
+  * Refreshed dependencies
+  * Added xchat to desktop-recommends [armel]
+  * Added xfce4-screenshooter to desktop-recommends
+  * Added xfce4-settings to desktop
+  * Removed acpi from desktop [amd64 i386 ia64 lpia]
+  * Removed fortune-mod from desktop-recommends
+  * Removed libglut3 from desktop
+  * Removed powermanagement-interface from desktop [amd64 i386 ia64 lpia
+    powerpc]
+  * Removed wvdial from desktop-recommends
+  * Removed xfce4-mcs-plugins-extra from desktop-recommends
+  * Removed xfce4-screenshooter-plugin from desktop-recommends
+  * Moved acpi-support to desktop-recommends [amd64 i386 ia64 lpia]
+  * Moved hotkey-setup to desktop-recommends [amd64 i386 lpia]
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Mon, 09 Feb 2009 18:09:35 -0400
+
+xubuntu-meta (2.76) jaunty; urgency=low
+
+  * Refreshed dependencies
+  * Added ttf-sazanami-gothic to desktop-recommends [amd64 hppa i386
+    ia64 lpia powerpc sparc]
+  * Added ttf-sazanami-mincho to desktop-recommends [amd64 hppa i386
+    ia64 lpia powerpc sparc]
+  * Added xfce4-dict-plugin to desktop-recommends [amd64 hppa i386 ia64
+    lpia powerpc sparc]
+  * Removed ttf-kochi-gothic from desktop-recommends [amd64 hppa i386
+    ia64 lpia powerpc sparc]
+  * Removed ttf-kochi-mincho from desktop-recommends [amd64 hppa i386
+    ia64 lpia powerpc sparc]
+  * Removed xfce4-dict from desktop-recommends [amd64 hppa i386 ia64
+    lpia powerpc sparc]
+  * Added armel, updated for jaunty 
+
+ -- Sarah Hobbs <hobbsee@ubuntu.com>  Sat, 13 Dec 2008 11:32:26 +1100
+
+xubuntu-meta (2.75) intrepid; urgency=low
+
+  * Refreshed dependencies
+  * Removed gtk2-engines-ubuntulooks from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Fixed LP: #281966
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 22 Oct 2008 10:40:50 -0300
+
+xubuntu-meta (2.74) intrepid; urgency=low
+
+  * Refreshed dependencies
+  * Removed yelp from desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Tue, 21 Oct 2008 23:43:13 -0300
+
+xubuntu-meta (2.73) intrepid; urgency=low
+
+  * Refreshed dependencies
+  * Added wireless-tools to desktop
+  * Added wpasupplicant to desktop
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 20 Oct 2008 19:08:00 +0100
+
+xubuntu-meta (2.72) intrepid; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-hppa32 to desktop-recommends [hppa]
+  * Added linux-headers-hppa64 to desktop-recommends [hppa]
+  * Added linux-headers-itanium to desktop-recommends [ia64]
+  * Added linux-headers-mckinley to desktop-recommends [ia64]
+  * Added linux-headers-powerpc to desktop-recommends [powerpc]
+  * Added linux-headers-powerpc64-smp to desktop-recommends [powerpc]
+  * Added linux-headers-sparc64 to desktop-recommends [sparc]
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Thu, 16 Oct 2008 02:38:57 -0700
+
+xubuntu-meta (2.71) intrepid; urgency=low
+
+  * Refreshed dependencies
+  * Added listen to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added seahorse to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added ssh-askpass-gnome to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added ttf-opensymbol to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added xchat to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added xsane to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed audacious from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed landscape-common from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed midori from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Thu, 02 Oct 2008 05:55:37 -0300
+
+xubuntu-meta (2.70) intrepid; urgency=low
+
+  * Refreshed dependencies
+  * Added landscape-common to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added linux-headers-lpia to desktop-recommends-lpia
+  * Removed listen from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Thu, 25 Sep 2008 12:09:52 -0300
+
+xubuntu-meta (2.69) intrepid; urgency=low
+
+  * Refreshed dependencies
+  * Added evince to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added listen to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added powermanagement-interface to desktop-lpia
+  * Removed displayconfig-gtk from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed evince-gtk from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed landscape-client from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed ttf-malayalam-fonts from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * debian/control: Bumped standards version to 3.8.0
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Fri, 19 Sep 2008 00:18:20 -0300
+
+xubuntu-meta (2.68) intrepid; urgency=low
+
+  * Adjust update.cfg to use ~xubuntu-dev branch for Xubuntu seeds. Requires
+    germinate (>= 1.6) for a bug-fix in handling of multiple bzr+ssh
+    seed_base items.
+
+  * Refreshed dependencies
+  * Added apt-xapian-index to desktop-recommends
+  * Added audacious to desktop-recommends
+  * Added dmz-cursor-theme to desktop
+  * Added gpicview to desktop-recommends
+  * Added inputattach to desktop
+  * Added libpam-ck-connector to desktop
+  * Added midori to desktop-recommends
+  * Added pcmciautils to desktop
+  * Added policykit-gnome to desktop
+  * Removed gnome-mount from desktop
+  * Removed libgnome2-perl from desktop-recommends
+  * Removed linux-headers-hppa32 from desktop-recommends [hppa]
+  * Removed linux-headers-hppa64 from desktop-recommends [hppa]
+  * Removed linux-headers-itanium from desktop-recommends [ia64]
+  * Removed linux-headers-mckinley from desktop-recommends [ia64]
+  * Removed linux-headers-powerpc from desktop-recommends [powerpc]
+  * Removed linux-headers-powerpc64-smp from desktop-recommends
+    [powerpc]
+  * Removed linux-headers-sparc64 from desktop-recommends [sparc]
+  * Removed ristretto from desktop-recommends
+  * Removed ubuntu-artwork from desktop
+  * Removed xfce4-mcs-plugins from desktop
+  * Moved thunar-archive-plugin to desktop-recommends
+  * Moved thunar-media-tags-plugin to desktop-recommends
+  * Moved thunar-thumbnailers to desktop-recommends
+  * Moved xfce4-mixer to desktop-recommends
+  * Moved xfwm4-themes to desktop-recommends
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 28 Aug 2008 22:51:52 +0100
+
+xubuntu-meta (2.67) intrepid; urgency=low
+
+  * Updated update.cfg for Intrepid.
+  * Refreshed dependencies
+  * Added catfish to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added cups to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added cups-bsd to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added cups-client to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added xfce4-dict to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added yelp to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed cups-pdf from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed cupsys from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed cupsys-bsd from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed cupsys-client from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed python-exo from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed xfce4-dict-plugin from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Moved avahi-daemon to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Moved gnome-system-tools to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Moved xfce4-mcs-plugins-extra to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Moved xfce4-terminal to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Sat, 12 Jul 2008 08:30:29 -0300
+
+xubuntu-meta (2.66) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-governor-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Thu, 10 Apr 2008 01:13:29 -0300
+
+xubuntu-meta (2.65) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added ca-certificates to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 09 Apr 2008 13:57:44 -0300
+
+xubuntu-meta (2.64) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-power-manager to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Cody A.W. Somerville <cody-somerville@ubuntu.com>  Wed, 02 Apr 2008 20:30:12 -0300
+
+xubuntu-meta (2.63) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added software-properties-gtk to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed example-content from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Mario Limonciello <superm1@ubuntu.com>  Sun, 16 Mar 2008 16:58:24 -0500
+
+xubuntu-meta (2.62) hardy; urgency=low
+
+  * Refreshed dependencies; closes LP: #202054.
+  * Added alsa-base to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added alsa-utils to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added file-roller to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added gnome-mount to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added gnome-screensaver to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added gnome-system-monitor to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-mcs-plugins-extra to desktop-powerpc, desktop-ia64,
+    desktop-hppa, desktop-lpia
+  * Removed discover1 from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed squeeze from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed ttf-mgopen from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed ttf-sil-gentium from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed xfce4-taskmanager from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed xresprobe from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed xscreensaver from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Moved mousepad to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Moved ristretto to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Moved screensaver-default-images to desktop-recommends-i386,
+    desktop-recommends-amd64, desktop-recommends-powerpc, desktop-
+    recommends-ia64, desktop-recommends-sparc, desktop-recommends-hppa,
+    desktop-recommends-lpia
+  * Moved xscreensaver-data to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Moved xscreensaver-gl to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Thu, 13 Mar 2008 22:18:49 -0700
+
+xubuntu-meta (2.61) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-mcs-plugins-extra to desktop-i386, desktop-amd64,
+    desktop-sparc
+  * Removed slocate from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 17 Feb 2008 17:30:19 +0100
+
+xubuntu-meta (2.60) hardy; urgency=low
+
+  * Add seed_map/desktop to update.cfg to cope with seed reorganisation.
+  * Remove output_seeds from update.cfg (and 'required minimal standard'
+    from seeds option), since germinate deals with this automatically now.
+    Build-depend on germinate (>= 0.38) for this.
+  * Point to specific GPL version in debian/copyright.
+
+  * Refreshed dependencies
+  * Added bluez-cups to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added bluez-utils to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added bogofilter to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added cdparanoia to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added dvd+rw-tools to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added fortune-mod to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added gnome-games to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added wodim to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added xfce4-places-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed cdparanoia from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed dvd+rw-tools from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed wodim from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed xfce4-places-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 12 Feb 2008 16:38:32 +0000
+
+xubuntu-meta (2.59) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added totem to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added totem-gstreamer to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed xfmedia from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia (should fix 
+    LP: #188030 and un-break daily builds).
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 05 Feb 2008 22:49:33 +0100
+
+xubuntu-meta (2.58) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added system-config-printer-gnome to desktop-recommends-i386,
+    desktop-recommends-amd64, desktop-recommends-powerpc, desktop-
+    recommends-ia64, desktop-recommends-sparc, desktop-recommends-hppa,
+    desktop-recommends-lpia
+  * Removed system-config-printer from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 29 Jan 2008 17:02:03 +0100
+
+xubuntu-meta (2.57) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added jockey-gtk to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed restricted-manager from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 28 Jan 2008 19:41:59 +0100
+
+xubuntu-meta (2.56) hardy; urgency=low
+
+  * update.cfg: add 'universe' to components.
+  * Refreshed dependencies
+  * Added libgoffice-gtk-0-6 to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added ristretto to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added squeeze to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added thunar-thumbnailers to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added xfce4-taskmanager to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfmedia to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed file-roller from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed gnome-system-monitor from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed gqview from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed libgoffice-gtk-0-5 from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed libjpeg-progs from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed totem from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed totem-xine from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Thu, 24 Jan 2008 13:47:49 +0100
+
+xubuntu-meta (2.55) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added cups-pdf to desktop-recommends-hppa
+  * Added pidgin-otr to desktop-recommends-sparc, desktop-recommends-
+    lpia
+  * Added transmission-gtk to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added ttf-sil-gentium to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added vinagre to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed ttf-gentium from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed xvnc4viewer from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 15 Jan 2008 12:44:11 +0100
+
+xubuntu-meta (2.54) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added gcalctool to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added libgl1-mesa-dri to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia (LP: #156467 and probably LP #176689 too)
+  * Added mousepad to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added thunar-archive-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added thunar-media-tags-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Added xfce4-places-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added xscreensaver to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed gcalctool from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed gnome-games from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed gnome-mount from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed gnome-screensaver from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed mousepad from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed thunar-archive-plugin from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed thunar-media-tags-plugin from desktop-recommends-i386,
+    desktop-recommends-amd64, desktop-recommends-powerpc, desktop-
+    recommends-ia64, desktop-recommends-sparc, desktop-recommends-hppa,
+    desktop-recommends-lpia
+  * Removed xfce4-places-plugin from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sun, 16 Dec 2007 15:21:35 +0100
+
+xubuntu-meta (2.53) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Added libgoffice-gtk-0-5 to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Sarah Hobbs <hobbsee@ubuntu.com>  Wed, 28 Nov 2007 20:06:00 +1100
+
+xubuntu-meta (2.52) hardy; urgency=low
+
+  * Refreshed dependencies
+  * Removed gimp-print from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed libgoffice-gtk-0-4 from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Sebastien Bacher <seb128@canonical.com>  Tue, 27 Nov 2007 21:32:04 +0100
+
+xubuntu-meta (2.51) hardy; urgency=low
+
+  * update.cfg:
+    - Switch to Hardy.
+    - Switch from sftp:// to bzr+ssh:// for checking out the seed branch for
+      faster operation.
+  * Refreshed dependencies
+  * Added foomatic-db-hpijs to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added libgoffice-gtk-0-4 to desktop-recommends-hppa
+  * Added pidgin-otr to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-hppa
+  * Removed foomatic-db-hpijs from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed libpam-foreground from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 22 Nov 2007 19:15:50 +0100
+
+xubuntu-meta (2.50) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added app-install-data-commercial to desktop-recommends-i386,
+    desktop-recommends-amd64, desktop-recommends-powerpc, desktop-
+    recommends-ia64, desktop-recommends-sparc, desktop-recommends-hppa,
+    desktop-recommends-lpia
+  * Added avahi-autoipd to desktop-recommends-hppa
+  * Added dbus to desktop-hppa
+  * Added gucharmap to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added libgl1-mesa-glx to desktop-hppa
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Sat, 06 Oct 2007 13:03:19 +0200
+
+xubuntu-meta (2.49) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added brasero to desktop-recommends-hppa
+  * Added evince-gtk to desktop-recommends-hppa
+  * Added gnome-games to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added gnome-mount to desktop-hppa
+  * Added gtk2-engines-murrine to desktop-hppa
+  * Added libgnome2-perl to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added network-manager-gnome to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added pidgin to desktop-recommends-hppa
+  * Added update-notifier to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 27 Sep 2007 20:01:47 +0200
+
+xubuntu-meta (2.48) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added brasero to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-lpia
+  * Added genisoimage to desktop-hppa
+  * Added ghostscript-x to desktop-hppa
+  * Added gtk2-engines to desktop-hppa
+  * Added hal-cups-utils to desktop-recommends-hppa
+  * Added python-exo to desktop-recommends-hppa
+  * Added splix to desktop-recommends-hppa
+  * Added thunar-volman to desktop-hppa
+  * Added totem-xine to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added ttf-dejavu-core to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Added ttf-indic-fonts-core to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added ttf-unfonts-core to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added wodim to desktop-hppa
+  * Added xfce4-notes-plugin to desktop-recommends-hppa
+  * Added xfce4-places-plugin to desktop-recommends-hppa
+  * Added xfce4-smartbookmark-plugin to desktop-recommends-hppa
+  * Removed ttf-baekmuk from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed ttf-dejavu from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed ttf-indic-fonts from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Thu, 20 Sep 2007 11:20:37 +0200
+
+xubuntu-meta (2.47) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added make to desktop-recommends-hppa
+  * Added pxljr to desktop-recommends-hppa
+  * Added totem to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added xfce4-dict-plugin to desktop-recommends-hppa
+  * Removed gxine from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 18 Sep 2007 13:18:18 +0200
+
+xubuntu-meta (2.46) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added thunar-volman to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-lpia
+  * Removed thunar-volman-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-lpia
+  * debian/rules: drop auto-replace regexp for xubuntu-system-tools and 
+    gcalctool.
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 14 Sep 2007 23:59:26 +0200
+
+xubuntu-meta (2.45) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added abiword to desktop-recommends-lpia
+  * Added abiword-plugins to desktop-recommends-lpia
+  * Added file-roller to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added orage to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added python-exo to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-lpia
+  * Added thunar-media-tags-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Removed orage from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed python-exo from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-lpia
+  * Removed thunar-media-tags-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xarchiver from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+
+ -- Jani Monoses <jani@ubuntu.com>  Sat,  8 Sep 2007 21:48:46 +0200
+
+xubuntu-meta (2.44) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-system-tools to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed xubuntu-system-tools from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue,  4 Sep 2007 16:44:21 +0200
+
+xubuntu-meta (2.43) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-screensaver to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added screensaver-default-images to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Added splix to desktop-recommends-lpia
+  * Added xscreensaver-data to desktop-lpia
+  * Added xscreensaver-gl to desktop-lpia
+  * Removed xfburn from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed xscreensaver from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 01 Sep 2007 16:14:17 +0200
+
+xubuntu-meta (2.42) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-mount to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-lpia
+  * Added gnome-system-monitor to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added mousepad to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added xfce4-appfinder to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-battery-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-clipman-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-cpugraph-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-dict-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-lpia
+  * Added xfce4-fsguard-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-mailwatch-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-mcs-plugins to desktop-lpia
+  * Added xfce4-mount-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-netload-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-notes-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-lpia
+  * Added xfce4-places-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-lpia
+  * Added xfce4-quicklauncher-plugin to desktop-recommends-i386,
+    desktop-recommends-amd64, desktop-recommends-powerpc, desktop-
+    recommends-ia64, desktop-recommends-sparc, desktop-recommends-hppa,
+    desktop-recommends-lpia
+  * Added xfce4-screenshooter-plugin to desktop-recommends-i386,
+    desktop-recommends-amd64, desktop-recommends-powerpc, desktop-
+    recommends-ia64, desktop-recommends-sparc, desktop-recommends-hppa,
+    desktop-recommends-lpia
+  * Added xfce4-session to desktop-lpia
+  * Added xfce4-smartbookmark-plugin to desktop-recommends-i386,
+    desktop-recommends-amd64, desktop-recommends-powerpc, desktop-
+    recommends-ia64, desktop-recommends-sparc, desktop-recommends-lpia
+  * Added xfce4-systemload-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-verve-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-weather-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfce4-xkb-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa, desktop-
+    recommends-lpia
+  * Added xfprint4 to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Added xvnc4viewer to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa, desktop-recommends-lpia
+  * Removed mousepad from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed xfce4-appfinder from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed xfce4-battery-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-clipman-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-cpugraph-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-dict-plugin from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-lpia
+  * Removed xfce4-fsguard-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-mailwatch-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-mount-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-netload-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-notes-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-lpia
+  * Removed xfce4-places-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-lpia
+  * Removed xfce4-quicklauncher-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-screenshooter-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-smartbookmark-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-lpia
+  * Removed xfce4-systemload-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-taskmanager from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed xfce4-verve-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-weather-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-
+    lpia
+  * Removed xfce4-xkb-plugin from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa, desktop-lpia
+  * Removed xfprint4 from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xvnc4viewer from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 27 Aug 2007 18:58:31 +0200
+
+xubuntu-meta (2.41) gutsy; urgency=low
+
+  * Generate packages for lpia.
+
+  * Refreshed dependencies
+  * Added apport-gtk to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added cups-pdf to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc
+  * Added displayconfig-gtk to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added foomatic-db-hpijs to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gqview to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added libjpeg-progs to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed apport-gtk from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed foomatic-db-hpijs from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Removed gqview from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed libjpeg-progs from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed scim-anthy from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed scim-chewing from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Removed scim-hangul from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Removed scim-pinyin from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Removed ttf-arphic-ukai from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 22 Aug 2007 18:30:08 +0200
+
+xubuntu-meta (2.40) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added foo2zjs to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added min12xxw to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added pxljr to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc
+  * Added splix to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc
+  * Removed foo2zjs from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed min12xxw from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 17 Aug 2007 19:18:22 +0200
+
+xubuntu-meta (2.39) gutsy; urgency=low
+
+  * Refreshed dependencies.	(LP: #131432)
+  * Added xfce4-mixer to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-mixer-alsa from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 11 Aug 2007 15:46:28 +0200
+
+xubuntu-meta (2.38) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added wvdial to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed wvdial from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Fri, 10 Aug 2007 12:09:16 +0200
+
+xubuntu-meta (2.37) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added avahi-autoipd to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc
+  * Added libnss-mdns to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed avahi-autoipd from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+  * Removed libnss-mdns from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Tue, 31 Jul 2007 22:20:26 +0200
+
+xubuntu-meta (2.36) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-places-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Sat, 28 Jul 2007 00:50:32 +0200
+
+xubuntu-meta (2.35) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added libgoffice-gtk-0-4 to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Mon, 16 Jul 2007 21:01:45 +0200
+
+xubuntu-meta (2.34) gutsy; urgency=low
+
+  * COPYING: add the full text of the GPL (see LP #80513).
+  * Refreshed dependencies
+  * Added ubufox to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed libgoffice-gtk-0-3 from desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc
+  * Removed thunar-doc from desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+
+ -- Lionel Le Folgoc <mrpouit@ubuntu.com>  Fri, 13 Jul 2007 19:26:13 +0200
+
+xubuntu-meta (2.33) gutsy; urgency=low
+
+  * Switch powerpc to http://ports.ubuntu.com/ubuntu-ports/.
+  * Update seed URLs.
+  * Germinate from required seed as well.
+
+  * Refreshed dependencies
+  * Added gcalctool to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gcalctool-gtk from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 03 Jul 2007 15:42:19 +0100
+
+xubuntu-meta (2.32) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added dbus to desktop-ia64
+  * Added gtk2-engines to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Added gtk2-engines-murrine to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+  * Added thunar-archive-plugin to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added xdg-utils to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed thunar-archive-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Fri, 22 Jun 2007 16:17:02 +0200
+
+xubuntu-meta (2.31) gutsy; urgency=low
+
+  * Refreshed dependencies
+  * Added dbus to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    sparc
+  * Added foomatic-db-hpijs to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Removed dbus-1-utils from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed evince-gtk from desktop-recommends-hppa
+  * Removed foomatic-db-hpijs from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Fri, 01 Jun 2007 15:30:55 +0200
+
+xubuntu-meta (2.30) gutsy; urgency=low
+
+  * update.cfg: feisty -> gutsy
+  * Refreshed dependencies
+  * Added discover1 to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added ghostscript-x to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Added laptop-detect to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added pidgin to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc
+  * Added xresprobe to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added xvnc4viewer to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gaim from desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed gs-esp-x from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Removed libstdc++5 from desktop-i386
+  * Removed xvncviewer from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Fri, 25 May 2007 13:48:14 +0200
+
+xubuntu-meta (2.29) feisty; urgency=low
+
+  * Refreshed dependencies
+  * Added evince-gtk to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added gnumeric-gtk to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added gtk2-engines-pixbuf to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gxine to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added hal-cups-utils to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc
+  * Added libgoffice-gtk-0-3 to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc
+  * Added onboard to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added system-config-printer to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added xarchiver to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added xfburn to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed evince-gtk from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gnumeric-gtk from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gxine from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed libgoffice-gtk-0-3 from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc
+  * Removed onboard from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed system-config-printer from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xarchiver from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfburn from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri,  6 Apr 2007 07:51:46 +0300
+
+xubuntu-meta (2.28) feisty; urgency=low
+
+  * changed Section to metapackages (LP#82876)
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Tue,  3 Apr 2007 13:26:26 +0200
+
+xubuntu-meta (2.27) feisty; urgency=low
+
+  * Refreshed dependencies
+  * Added abiword to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added abiword-plugins to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added firefox to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added gaim to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added genisoimage to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Added gimp to desktop-recommends-i386, desktop-recommends-amd64,
+    desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added gimp-print to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added landscape-client to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added mozilla-thunderbird to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added restricted-manager to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added scim-tables-additional to desktop-recommends-i386
+  * Added wodim to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Added xubuntu-docs to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Removed abiword from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed abiword-plugins from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed cdrecord from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed firefox from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gaim from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gimp from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gimp-print from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed landscape-client from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed mkisofs from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed mozilla-thunderbird from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xubuntu-docs from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 21 Mar 2007 17:13:54 +0200
+
+xubuntu-meta (2.26) feisty; urgency=low
+
+  * update.cfg: use http to retrieve the bzr branch, not sftp
+  * Refreshed dependencies
+  * Added thunar-volman-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Tue,  6 Mar 2007 18:16:34 +0100
+
+xubuntu-meta (2.25) feisty; urgency=low
+
+  * Refreshed dependencies
+  * Added avahi-autoipd to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Added gs-esp-x to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Added notification-daemon to desktop-recommends-i386, desktop-
+    recommends-amd64, desktop-recommends-powerpc, desktop-recommends-
+    ia64, desktop-recommends-sparc, desktop-recommends-hppa
+  * Added openprinting-ppds to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added thunar-doc to desktop-recommends-i386, desktop-recommends-
+    amd64, desktop-recommends-powerpc, desktop-recommends-ia64, desktop-
+    recommends-sparc, desktop-recommends-hppa
+  * Added xkb-data to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xvncviewer to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gs-esp from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed linuxprinting.org-ppds from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xkeyboard-config from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Martin Pitt <martin.pitt@ubuntu.com>  Wed, 14 Feb 2007 10:46:33 +0100
+
+xubuntu-meta (2.24) feisty; urgency=low
+
+  * Refreshed dependencies
+  * Added libnss-mdns to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added linuxprinting.org-ppds to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added zenity to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue,  5 Dec 2006 19:27:57 +0200
+
+xubuntu-meta (2.23) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-generic to desktop-recommends-i386
+  * Removed linux-headers-386 from desktop-recommends-i386
+  * Robustify the update script.
+
+ -- Matthias Klose <doko@ubuntu.com>  Thu, 19 Oct 2006 21:20:40 +0200
+
+xubuntu-meta (2.22) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added gcalctool-gtk to desktop-sparc
+  * Added gnome-app-install to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added vim-runtime to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed linuxprinting.org-ppds from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 17 Oct 2006 16:31:35 +0300
+
+xubuntu-meta (2.21) edgy; urgency=low
+
+  * Really remove xubuntu-live metapackage.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 15 Oct 2006 08:43:28 +0100
+
+xubuntu-meta (2.20) edgy; urgency=low
+
+  * Fix build failure due to removal of xubuntu-live.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 12 Oct 2006 10:36:18 +0100
+
+xubuntu-meta (2.19) edgy; urgency=low
+
+  * Remove xubuntu-live metapackage; this is done using tasks now.
+  * Set output_seeds appropriately and remove some extraneous files.
+  * Bump versioned build dependency on germinate to handle recommends.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 12 Oct 2006 04:02:28 +0100
+
+xubuntu-meta (2.18) edgy; urgency=low
+
+  * debian/rules: Replace gcalctool-gtk with gcalctool-gtk | gcalctool and
+    gnumeric-gtk with gnumeric-gtk | gnumeric in the substvars file to avoid
+    conflicting with ubuntu-desktop. (LP #65530)
+  * debian/copyright: Use new FSF address
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 11 Oct 2006 21:12:15 +0300
+
+xubuntu-meta (2.17) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added gcalctool-gtk to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64
+  * Removed language-support-ar from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-bn from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-en from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-es from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-hi from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-pt from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-xh from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-zh from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 11 Oct 2006 15:27:52 +0300
+
+xubuntu-meta (2.16) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added avahi-daemon to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added linuxprinting.org-ppds to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added util-linux-locales to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 10 Oct 2006 13:12:09 +0300
+
+xubuntu-meta (2.15) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added system-config-printer to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Sat,  7 Oct 2006 10:45:07 +0300
+
+xubuntu-meta (2.14) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added gxine to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added onboard to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-dict-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu,  5 Oct 2006 15:59:55 +0300
+
+xubuntu-meta (2.13) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added console-setup to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added libgl1-mesa-glx to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+  * Added startup-tasks to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc
+  * Added system-services to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc
+  * Added upstart to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc
+  * Added upstart-compat-sysv to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc
+  * Added upstart-logd to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc
+  * Added vim-tiny to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed example-content from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gcc from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gnome-accessibility-themes from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed hplip from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed linux-headers-686 from desktop-i386
+  * Removed linux-headers-amd64-generic from desktop-amd64
+  * Removed linux-headers-hppa32 from desktop-hppa
+  * Removed linux-headers-hppa64 from desktop-hppa
+  * Removed linux-headers-itanium-smp from desktop-ia64
+  * Removed linux-headers-mckinley-smp from desktop-ia64
+  * Removed linux-headers-powerpc from desktop-powerpc
+  * Removed linux-headers-powerpc64-smp from desktop-powerpc
+  * Removed linux-headers-sparc64 from desktop-sparc
+  * Removed make from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed mtr-tiny from standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Removed openssh-client from standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Removed powernowd from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed scim from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed scim-anthy from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed scim-chewing from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed scim-gtk2-immodule from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed scim-hangul from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed scim-pinyin from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed sysvinit from minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed ttf-arabeyes from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-arphic-ukai from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-arphic-uming from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-baekmuk from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-gentium from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-indic-fonts from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-kochi-gothic from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-kochi-mincho from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-lao from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-malayalam-fonts from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-mgopen from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-thai-tlwg from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed vim from minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed xcursor-themes from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 22 Sep 2006 15:14:38 +0300
+
+xubuntu-meta (2.12) edgy; urgency=low
+
+  * prepared for recommends usage
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Mon, 11 Sep 2006 17:51:08 +0200
+
+xubuntu-meta (2.11) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Removed hpijs-ppds from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-smartbookmark-plugin from desktop-hppa
+  * Removed xfce4-notes-plugin from desktop-hppa
+  * Removed foomatic-filters-ppds from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 29 Aug 2006 22:47:22 +0300
+
+xubuntu-meta (2.10) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Removed foomatic-db-gutenprint from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-notes-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-smartbookmark-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Tue, 29 Aug 2006 13:18:59 +0200
+
+xubuntu-meta (2.9) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added ubuntu-minimal to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added python-exo to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Removed language-pack-ja from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-pack-fr from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-pack-ru from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-pack-de from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-support-ru from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-de from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed xfmedia from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed language-support-fr from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-ja from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 22 Aug 2006 13:46:26 +0300
+
+xubuntu-meta (2.8) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added mktemp to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc
+  * Added python-minimal to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added apport-gtk to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed initscripts from minimal-i386, minimal-amd64, 
+    minimal-powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+
+ -- Gauvain Pocentek <gauvainpocentek@ubuntu.com>  Sat, 12 Aug 2006 16:35:07 +0200
+
+xubuntu-meta (2.7) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added linux-headers-mckinley-smp to desktop-ia64
+  * Added gcc to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added linux-headers-powerpc to desktop-powerpc
+  * Added linux-headers-hppa32 to desktop-hppa
+  * Added make to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added linux-headers-amd64-generic to desktop-amd64
+  * Added tasksel to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added linux-headers-itanium-smp to desktop-ia64
+  * Added linux-headers-sparc64 to desktop-sparc
+  * Added linux-headers-686 to desktop-i386
+  * Added linux-headers-hppa64 to desktop-hppa
+  * Added linux-headers-powerpc64-smp to desktop-powerpc
+  * Removed gtk2-engines-smooth from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gtk2-engines-industrial from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gtk2-engines-clearlooks from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gtk2-engines-mist from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed libgl1-mesa from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Sun, 30 Jul 2006 11:58:07 +0300
+
+xubuntu-meta (2.6) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Removed language-pack-zu from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-support-ro from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-pack-ca from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-pack-ro from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-support-hu from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-pack-af from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-support-ca from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-pack-hu from live-powerpc, live-ia64, live-sparc,
+    live-hppa
+  * Removed language-support-zu from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed language-support-af from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 26 Jul 2006 13:22:11 +0300
+
+xubuntu-meta (2.5) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added libgoffice-gtk-0-3 to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+  * Removed libgoffice-gtk-1-2 from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 24 Jul 2006 12:40:10 +0300
+
+xubuntu-meta (2.4) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added hfsplus to live-powerpc
+  * Added xfsprogs to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added jfsutils to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Removed xserver-xorg-input-synaptics from desktop-i386, desktop-
+    amd64, desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 17 Jul 2006 22:52:52 +0300
+
+xubuntu-meta (2.3) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Removed pbbuttonsd from desktop-i386
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 13 Jul 2006 18:23:41 +0300
+
+xubuntu-meta (2.2) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added thunar-archive-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 13 Jul 2006 12:55:53 +0300
+
+xubuntu-meta (2.1) edgy; urgency=low
+
+  * Refreshed dependencies
+  * Added tzdata to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added hfsutils to standard-powerpc
+  * Added ltrace to standard-ia64
+  * Added strace to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added gnome-accessibility-themes to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added dosfstools to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added memtest86+ to standard-i386, standard-amd64
+  * Added dash to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added pbbuttonsd to desktop-i386
+  * Added hpijs-ppds to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xorg to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added reiserfsprogs to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Removed xfsprogs from minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed grub from live-i386, live-amd64
+  * Removed lvm2 from standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Removed dosfstools from minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed irssi from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed hplip-ppds from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed mdadm from standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Removed doc-debian from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed grepmap from minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed evms-ncurses from standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Removed hfsplus from minimal-powerpc
+  * Removed evms from standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Removed yaboot from live-powerpc
+  * Removed memtest86+ from minimal-i386, minimal-amd64
+  * Removed reiser4progs from minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed reiserfsprogs from minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed pcmcia-cs from live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Removed hfsutils from minimal-powerpc
+  * Removed strace from minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed dmsetup from standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Removed jfsutils from minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed reportbug from standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Removed x-window-system-core from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 13 Jul 2006 07:51:00 +0300
+
+xubuntu-meta (2.0) edgy; urgency=low
+
+  * Add update.cfg for new germinate-update-metapackage (Build-Depends:
+    germinate (>= 0.16)). Replace update with a trivial wrapper. We now pull
+    seeds directly from bzr over sftp by default, so update will only work
+    if you're in the ubuntu-core-dev team; run germinate-update-metapackage
+    without options or temporarily replace "sftp" with "http" in update.cfg
+    to update without authentication.
+  * Switch to edgy seeds.
+  * Bump to 2.0.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri,  9 Jun 2006 13:15:49 +0100
+
+xubuntu-meta (1.32) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added landscape-client to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * debian/rules: replace evince-gtk with evince-gtk | evince, and
+    xubuntu-system-tools with xubuntu-system-tools | gnome-system-tools
+    in xubuntu-desktop.substvars to have xubuntu-desktop and ubuntu-desktop
+    installable in the same time (idea from, and closes LP #46191)
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 29 May 2006 12:31:25 +0300
+
+xubuntu-meta (1.31) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added language-pack-as to live-i386, live-amd64
+  * Added language-pack-sk to live-i386, live-amd64
+  * Added language-pack-ka to live-i386, live-amd64
+  * Added language-pack-my to live-i386, live-amd64
+  * Added language-pack-az to live-i386, live-amd64
+  * Added language-pack-kn to live-i386, live-amd64
+  * Added language-pack-ia to live-i386, live-amd64
+  * Added language-pack-mr to live-i386, live-amd64
+  * Added language-pack-ms to live-i386, live-amd64
+  * Added language-pack-id to live-i386, live-amd64
+  * Added language-pack-mn to live-i386, live-amd64
+  * Added language-pack-ku to live-i386, live-amd64
+  * Added language-pack-ml to live-i386, live-amd64
+  * Added language-pack-mk to live-i386, live-amd64
+  * Added language-pack-mg to live-i386, live-amd64
+  * Added language-pack-is to live-i386, live-amd64
+  * Added language-pack-vi to live-i386, live-amd64
+  * Added language-pack-it to live-i386, live-amd64
+  * Added language-pack-am to live-i386, live-amd64
+  * Added language-pack-ga to live-i386, live-amd64
+  * Added language-pack-eo to live-i386, live-amd64
+  * Added language-pack-el to live-i386, live-amd64
+  * Added language-pack-gl to live-i386, live-amd64
+  * Added language-pack-yi to live-i386, live-amd64
+  * Added language-pack-li to live-i386, live-amd64
+  * Added language-pack-et to live-i386, live-amd64
+  * Added language-pack-eu to live-i386, live-amd64
+  * Added language-pack-gu to live-i386, live-amd64
+  * Added language-pack-mi to live-i386, live-amd64
+  * Added language-pack-cy to live-i386, live-amd64
+  * Added language-pack-ko to live-i386, live-amd64
+  * Added language-pack-lg to live-i386, live-amd64
+  * Added language-pack-he to live-i386, live-amd64
+  * Added language-pack-lo to live-i386, live-amd64
+  * Added language-pack-sl to live-i386, live-amd64
+  * Added language-pack-lt to live-i386, live-amd64
+  * Added language-pack-lv to live-i386, live-amd64
+  * Added ubuntu-artwork to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-pack-nb to live-i386, live-amd64
+  * Added language-pack-uk to live-i386, live-amd64
+  * Added language-pack-hr to live-i386, live-amd64
+  * Added language-pack-fa to live-i386, live-amd64
+  * Added language-pack-da to live-i386, live-amd64
+  * Added language-pack-be to live-i386, live-amd64
+  * Added language-pack-se to live-i386, live-amd64
+  * Added language-pack-br to live-i386, live-amd64
+  * Added language-pack-bg to live-i386, live-amd64
+  * Added language-pack-cs to live-i386, live-amd64
+  * Added language-pack-bs to live-i386, live-amd64
+  * Added language-pack-fi to live-i386, live-amd64
+  * Added language-pack-si to live-i386, live-amd64
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 24 May 2006 17:29:55 +0300
+
+xubuntu-meta (1.30) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added evince-gtk to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xubuntu-system-tools to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 22 May 2006 15:49:11 +0300
+
+xubuntu-meta (1.29) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added thunar-media-tags-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-screenshooter-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-mount-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-clipman-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfburn to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 18 May 2006 14:02:41 +0300
+
+xubuntu-meta (1.28) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added language-pack-ar to live-i386, live-amd64, live-ia64, live-
+    sparc, live-hppa
+  * Added language-pack-ru to live-i386, live-amd64, live-ia64, live-
+    sparc, live-hppa
+  * Added language-support-ro to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added usplash to desktop-hppa
+  * Added language-pack-ro to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added language-pack-pt to live-i386, live-amd64, live-ia64, live-
+    sparc, live-hppa
+  * Added language-pack-af to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added language-support-pt to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-xh to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-es to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-zh to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-pack-ca to live-i386, live-amd64, live-ia64, live-
+    sparc, live-hppa
+  * Added language-pack-es to live-i386, live-amd64, live-ia64, live-
+    sparc, live-hppa
+  * Added language-support-de to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-zu to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-bn to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-pack-hi to live-i386, live-amd64, live-ia64, live-
+    sparc, live-hppa
+  * Added language-pack-ja to live-i386, live-amd64, live-ia64, live-
+    sparc, live-hppa
+  * Added language-support-hi to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-hu to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-pack-hu to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added language-support-fr to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-ja to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-pack-zu to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added gnumeric-gtk to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-support-ru to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-ar to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added tango-icon-theme-common to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-pack-xh to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added language-support-ca to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added language-support-af to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Removed ubiquity-ubuntu-doc from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed cdebconf from live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 15 May 2006 12:30:14 +0300
+
+xubuntu-meta (1.27) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added gtk2-engines-ubuntulooks to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libgoffice-gtk-1-2 to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added example-content to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ttf-gentium to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 10 May 2006 14:48:29 +0300
+
+xubuntu-meta (1.26) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added scim-pinyin to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added scim-anthy to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-netload-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added scim-hangul to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-systemload-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added scim-chewing to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-cpugraph-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xarchiver to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed libreiserfs0.3-0 from minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 27 Apr 2006 09:38:19 +0300
+
+xubuntu-meta (1.25) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added ubiquity-ubuntu-doc to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added ttf-lao to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ubiquity-ubuntu-artwork to live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Added libjpeg-progs to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-verve-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-battery-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-quicklauncher-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-weather-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-xkb-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ubiquity-frontend-gtk to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added xcursor-themes to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed espresso-ubuntu-doc from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed espresso-frontend-gtk from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Removed espresso-ubuntu-artwork from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 26 Apr 2006 10:42:32 +0300
+
+xubuntu-meta (1.24) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added wpasupplicant to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added mozilla-thunderbird to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed wpasupplicant from standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 18 Apr 2006 16:52:49 +0300
+
+xubuntu-meta (1.23) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added libc6-sparc64v to minimal-sparc
+  * Added libc6-sparcv9b to minimal-sparc
+  * Added sparc-utils to minimal-sparc
+  * Added tango-icon-theme to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libc6-sparc64b to minimal-sparc
+  * Added libc6-sparcv9v to minimal-sparc
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 18 Apr 2006 15:36:08 +0300
+
+xubuntu-meta (1.22) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added gimp-print to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libstdc++5 to desktop-i386
+  * Added abiword-plugins to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed espresso from live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Removed network-manager from live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 12 Apr 2006 01:57:53 +0300
+
+xubuntu-meta (1.21) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added wpasupplicant to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added update-manager to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue,  4 Apr 2006 20:59:34 +0300
+
+xubuntu-meta (1.20) dapper; urgency=low
+
+  * Modify update script to only look at packages in the main archive
+  * Refreshed dependencies
+  * Removed ttf-lao from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-gentium from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-clipman-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-battery-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-verve-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-quicklauncher-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-weather-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-xkb-plugin from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed evince-gtk from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-mount-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 28 Mar 2006 18:18:57 +0300
+
+xubuntu-meta (1.19) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added language-pack-bn to live-i386, live-amd64, live-sparc, live-
+    hppa
+  * Added ttf-lao to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ttf-gentium to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-mailwatch-plugin to desktop-hppa
+  * Added language-pack-de to live-i386, live-amd64, live-sparc, live-
+    hppa
+  * Added ttf-thai-tlwg to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-verve-plugin to desktop-hppa
+  * Added language-pack-fr to live-i386, live-amd64, live-sparc, live-
+    hppa
+  * Added xfce4-quicklauncher-plugin to desktop-hppa
+  * Added xfce4-weather-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-xkb-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-mixer-alsa to desktop-hppa
+  * Added xfce4-mount-plugin to desktop-hppa
+  * Added language-pack-zh to live-i386, live-amd64, live-sparc, live-
+    hppa
+  * Removed rss-glx from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 28 Mar 2006 16:45:08 +0300
+
+xubuntu-meta (1.18) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added evince-gtk to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 14 Apr 2006 01:23:00 -0500
+
+xubuntu-meta (1.17) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added inputattach to standard-sparc, standard-hppa
+  * Added ltrace to standard-sparc
+  * Added xfce4-verve-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+  * Added grub to live-i386, live-amd64
+  * Added xfce4-fsguard-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added yaboot to live-powerpc
+  * Added xfce4-mount-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc
+  * Added ttf-arphic-ukai to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-mailwatch-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc
+  * Added gdebi to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added irssi to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-battery-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-clipman-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-mixer-alsa to desktop-ia64, desktop-sparc
+  * Added xfce4-quicklauncher-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc
+  * Added language-selector to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ttf-arphic-uming to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added scim-gtk2-immodule to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added usplash to desktop-ia64
+  * Added scim to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-arphic-bkai00mp from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-arphic-gbsn00lp from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed irssi-text from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-arphic-gkai00mp from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ttf-arphic-bsmi00lp from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 20 Mar 2006 16:22:54 +0200
+
+xubuntu-meta (1.16) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-mixer-alsa to desktop-i386, desktop-amd64, desktop-
+    powerpc
+  * Added network-manager to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 24 Feb 2006 11:55:04 +0200
+
+xubuntu-meta (1.15) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-mcs-plugins to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 21 Feb 2006 17:01:55 +0200
+
+xubuntu-meta (1.14) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added gqview to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gtk2-engines-clearlooks to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gtk2-engines-smooth to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gtk2-engines-industrial to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gtk2-engines-xfce to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gtk2-engines-mist to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed  from desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Removed libesd-alsa0 from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-mixer from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 17 Feb 2006 17:28:29 +0200
+
+xubuntu-meta (1.13) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added xfce4-session to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-utils to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added espresso-ubuntu-doc to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added espresso-frontend-gtk to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added doc-base to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added rss-glx to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added inputattach to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64
+  * Added xscreensaver-gl to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added espresso to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added xfwm4-themes to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libpam-foreground to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added cdebconf to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added xscreensaver-data to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added espresso-ubuntu-artwork to live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+  * Added xfdesktop4 to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfwm4 to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-panel to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gdm to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added gimp to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Removed partman from live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Removed xfce4-systray from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-xkb-plugin from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed grub from live-i386, live-amd64
+  * Removed user-setup from live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Removed yaboot from live-powerpc
+  * Removed casper from live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Removed xfce4 from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-battery-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed gparted from live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Removed xfce4-weather-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ivman from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ifrename from minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Removed espresso-utils from live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Removed os-prober from live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Removed xfce4-iconbox from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xchat from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 16 Feb 2006 17:42:55 +0200
+
+xubuntu-meta (1.12) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added cupsys-driver-gutenprint to desktop-ia64
+  * Added thunar to desktop-ia64
+  * Added xfce4-battery-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added orage to desktop-ia64
+  * Removed gqview from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-windowlist-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed esound from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed sylpheed from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-fsguard-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-panel-menu-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-trigger-launcher from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-genmon-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-wavelan-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-taskbar-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-sensors-plugin from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed graveman from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfce4-goodies from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu, 19 Jan 2006 22:36:45 +0200
+
+xubuntu-meta (1.11) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added cupsys-driver-gutenprint to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-sparc, desktop-hppa
+  * Added foomatic-db-gutenprint to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added thunar to desktop-sparc
+  * Added xserver-xorg-input-synaptics to desktop-amd64, desktop-hppa
+  * Added casper to live-sparc
+  * Added orage to desktop-sparc
+  * Removed foomatic-db-gimp-print from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed ubuntu-express from live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Removed xfce4-toys from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed cupsys-driver-gimpprint from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri, 13 Jan 2006 10:03:09 +0200
+
+xubuntu-meta (1.10) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added user-setup to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added xserver-xorg-input-synaptics to desktop-i386, desktop-powerpc,
+    desktop-ia64, desktop-sparc
+  * Added xubuntu-docs to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added thunar to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-hppa
+  * Added orage to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-hppa
+  * Added hotkey-setup to desktop-amd64
+  * Removed rox-filer from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed casper from live-sparc
+  * Removed ubuntu-docs from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xorg-driver-synaptics from desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed xfcalendar from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri,  6 Jan 2006 21:10:36 +0200
+
+xubuntu-meta (1.9) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added partman to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added foo2zjs to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added min12xxw to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xubuntu-default-settings to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added casper to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added ttf-dejavu to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added espresso-utils to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added os-prober to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 20 Dec 2005 23:52:38 +0200
+
+xubuntu-meta (1.8) dapper; urgency=low
+
+  * Refreshed dependencies
+  * Added gparted to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added wvdial to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed bogofilter from desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed fetchmail from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed procmail from desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Removed language-pack-gnome-en from live-i386, live-amd64, live-
+    powerpc, live-ia64, live-sparc, live-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Thu,  1 Dec 2005 15:03:06 +0200
+
+xubuntu-meta (1.7) dapper; urgency=low
+
+  * Update to be in sync with ubuntu-meta and use germinate
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 29 Nov 2005 23:10:06 +0200
+
+xubuntu-meta (1.6) dapper; urgency=low
+
+  * Update desktop seeds; hplip Replaces hplip-base. This change makes
+    xubuntu-desktop installable again.
+
+ -- Daniel T Chen <crimsun@fungus.sh.nu>  Sat, 19 Nov 2005 00:52:39 -0800
+
+xubuntu-meta (1.5) dapper; urgency=low
+
+   * Update maintainer email address
+   * Switch update script to dapper
+
+ -- Jani Monoses <jani@ubuntu.com>  Tue, 8 Nov 2005 23:28:46 +0200 
+
+xubuntu-meta (1.4) breezy; urgency=low
+  
+  * Remove minimal- and standard- package lists as they are not specfic
+    to xubuntu
+  * Refreshed dependencies
+  * Added ubuntu-docs to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 12 Oct 2005 22:18:59 +0300
+
+xubuntu-meta (1.3) breezy; urgency=low
+  * Start using a local branch of the ubuntu seeds as a base for
+    package selection.
+  * Refreshed dependencies
+  * Added cdparanoia to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added cupsys-driver-gimpprint to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added less to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added laptop-detect to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added acpid to desktop-i386, desktop-amd64, desktop-ia64
+  * Added usplash to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-sparc
+  * Added iproute to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added pppconfig to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added passwd to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added findutils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added screen to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added readahead to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added reiserfsprogs to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added hal to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added grepmap to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added coreutils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added evms-ncurses to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added wget to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added lvm2 to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added jfsutils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added iptables to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added locales to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added makedev to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xfce4-iconbox to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-pack-es to live-powerpc
+  * Added ethtool to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added lftp to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added unzip to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-pack-hi to live-powerpc
+  * Added ttf-kochi-mincho to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added x-ttcidfont-conf to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added python to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added mkisofs to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added telnet to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added pnm2ppa to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added dc to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-wavelan-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ttf-arphic-gbsn00lp to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libfribidi0 to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added ttf-indic-fonts to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ivman to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ifrename to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added hfsutils to minimal-powerpc
+  * Added foomatic-filters-ppds to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added apmd to desktop-i386
+  * Added synaptic to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added foomatic-db-gimp-print to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-systray to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added sysvinit to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added powermanagement-interface to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64
+  * Added dmsetup to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added xfcalendar to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added psmisc to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added xfce4-appfinder to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-xkb-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfmedia to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added dselect to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added hplip-base to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added x-window-system-core to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added debconf to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added cupsys-bsd to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xterm to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-support-en to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added grub to live-i386, live-amd64
+  * Added adduser to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added ttf-arphic-bkai00mp to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ed to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added dosfstools to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added fetchmail to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xubuntu-artwork-usplash to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added udev to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added cron to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added libreiserfs0.3-0 to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added sed to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added acpi-support to desktop-i386, desktop-amd64, desktop-ia64
+  * Added alsa-base to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added libc6-i686 to minimal-i386
+  * Added mdadm to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added evms to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added sysklogd to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added ftp to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added rsync to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added openssh-client to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added sylpheed to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added pbbuttonsd to desktop-powerpc
+  * Added language-pack-en to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added lsb-release to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added dvd+rw-tools to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ncurses-bin to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xfce4-weather-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added hotkey-setup to desktop-i386
+  * Added console-tools to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added acpi to desktop-i386, desktop-amd64, desktop-ia64
+  * Added language-pack-bn to live-powerpc, live-ia64
+  * Added irssi-text to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added net-tools to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added bc to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added ubuntu-minimal to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added smbclient to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added iputils-tracepath to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added procmail to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added foomatic-db to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-taskmanager to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added dmidecode to standard-i386, standard-amd64, standard-ia64
+  * Added gettext-base to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added dbus-1-utils to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libesd-alsa0 to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added mime-support to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added bogofilter to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added pcmcia-cs to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added bash to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added xchat to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added dhcp3-client to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xfce4-trigger-launcher to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added scrollkeeper to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added foomatic-db-engine to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added alsa-utils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added language-pack-fr to live-powerpc, live-ia64
+  * Added cdrecord to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-pack-gnome-en to live-i386, live-amd64, live-powerpc,
+    live-ia64, live-sparc, live-hppa
+  * Added slocate to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added discover1 to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added login to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added lsof to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added foomatic-db-hpijs to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ltrace to standard-i386, standard-amd64, standard-powerpc
+  * Added libglib2.0-data to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added firefox to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xscreensaver to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added foomatic-filters to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-pack-ru to live-powerpc
+  * Added parted to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added apt to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added vim to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added xkeyboard-config to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ttf-bitstream-vera to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added lshw to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added hplip-ppds to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added aptitude to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added graveman to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-sensors-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added diff to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added popularity-contest to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added xfce4-panel-menu-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added doc-debian to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libgl1-mesa to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ifupdown to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added zip to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added ttf-kochi-gothic to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added abiword to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ttf-arphic-bsmi00lp to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added w3m to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added language-pack-ca to live-powerpc
+  * Added dnsutils to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added netbase to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added man-db to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added ttf-arabeyes to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added tcpdump to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added ubuntu-standard to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added mtr-tiny to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added mawk to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added netcat to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added esound to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfprint4 to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added yaboot to live-powerpc
+  * Added ttf-malayalam-fonts to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-genmon-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added fdutils to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added pppoeconf to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added hdparm to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added debianutils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added gaim to desktop-i386, desktop-amd64, desktop-powerpc, desktop-
+    ia64, desktop-sparc, desktop-hppa
+  * Added cupsys to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ncurses-base to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added nano to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added dpkg to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added iputils-ping to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added info to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added xfce4-windowlist-plugin to desktop-i386, desktop-amd64,
+    desktop-powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added grep to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added mount to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added language-pack-de to live-powerpc, live-ia64
+  * Added libxp6 to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added initscripts to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added gnupg to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added ppp to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added reportbug to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added ttf-freefont to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-goodies to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added procps to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added language-pack-ar to live-powerpc
+  * Added ttf-mgopen to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfsprogs to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added powernowd to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added gs-esp to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added util-linux to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added hfsplus to minimal-powerpc
+  * Added sudo to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added hotplug to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added usbutils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added apt-utils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added language-pack-pt to live-powerpc
+  * Added logrotate to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added ttf-arphic-gkai00mp to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added at to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added file to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added base-files to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added mii-diag to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added mousepad to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added tar to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added initramfs-tools to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xorg-driver-synaptics to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xresprobe to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added bzip2 to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added hostname to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xfce4-toys to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added xfce4-taskbar-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added libsasl2-modules to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ttf-baekmuk to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ntfsprogs to live-i386, live-amd64, live-powerpc, live-ia64,
+    live-sparc, live-hppa
+  * Added module-init-tools to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xfce4 to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added wireless-tools to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xfce4-mixer to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added language-pack-ja to live-powerpc
+  * Added xfce4-fsguard-plugin to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added cupsys-client to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added time to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added anacron to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added cpio to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added manpages to standard-i386, standard-amd64, standard-powerpc,
+    standard-ia64, standard-sparc, standard-hppa
+  * Added memtest86+ to minimal-i386, minimal-amd64
+  * Added libglut3 to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added iputils-arping to standard-i386, standard-amd64, standard-
+    powerpc, standard-ia64, standard-sparc, standard-hppa
+  * Added base-config to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added powerpc-utils to minimal-powerpc
+  * Added gqview to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added ubuntu-keyring to minimal-i386, minimal-amd64, minimal-
+    powerpc, minimal-ia64, minimal-sparc, minimal-hppa
+  * Added xfce4-terminal to desktop-i386, desktop-amd64, desktop-
+    powerpc, desktop-ia64, desktop-sparc, desktop-hppa
+  * Added eject to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added strace to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added ntpdate to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added e2fsprogs to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added rox-filer to desktop-i386, desktop-amd64, desktop-powerpc,
+    desktop-ia64, desktop-sparc, desktop-hppa
+  * Added perl-base to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added bsdutils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added pciutils to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added gzip to minimal-i386, minimal-amd64, minimal-powerpc, minimal-
+    ia64, minimal-sparc, minimal-hppa
+  * Added pmac-fdisk to minimal-powerpc
+  * Added language-pack-zh to live-powerpc, live-ia64
+  * Added ubuntu-express to live-i386, live-amd64, live-powerpc, live-
+    ia64, live-sparc, live-hppa
+  * Added base-passwd to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+  * Added mac-fdisk to minimal-powerpc
+  * Added reiser4progs to minimal-i386, minimal-amd64, minimal-powerpc,
+    minimal-ia64, minimal-sparc, minimal-hppa
+
+ -- Jani Monoses <jani@ubuntu.com>  Wed, 12 Oct 2005 18:48:25 +0300
+
+xubuntu-meta (1.2) breezy; urgency=low
+
+  * Add xfce4-taskmanager and xubuntu-artwork
+  * Explicitely add libesd-alsa0 so libesd0 is not picked instead. 
+
+ -- Jani Monoses <jani@ubuntu.com>  Mon, 10 Oct 2005 19:41:46 +0300
+
+xubuntu-meta (1.1) breezy; urgency=low
+
+  * Add the rest of the plugin packages:
+    xfce4-fsguard-plugin
+    xfce4-genmon-plugin
+    xfce4-panel-menu-plugin
+    xfce4-sensors-plugin
+    xfce4-taskbar-plugin
+    xfce4-windowlist-plugin
+    xfce4-xkb-plugin 
+
+ -- Jani Monoses <jani@ubuntu.com>  Fri,  7 Oct 2005 17:17:28 +0300
+
+xubuntu-meta (1.0) breezy; urgency=low
+
+  * Fix clean: target to remove files that shouldn't be there.
+
+  * Special case sparc to remove powermanagement-interface.
+
+ -- Fabio M. Di Nitto <fabbione@ubuntu.com>  Fri, 07 Oct 2005 07:44:19 +0200
+
+xubuntu-meta (0.9) breezy; urgency=low
+
+  * Add powermanagement-interface, usplash and esound
+
+ -- Jani Monoses <jani@ubuntu.com>  Sun,  2 Oct 2005 23:31:52 +0300
+
+xubuntu-meta (0.8) breezy; urgency=low
+
+  * Add xchat, graveman, abiword, sylpheed
+
+ -- Jani Monoses <jani@email.ro>  Sat,  1 Oct 2005 22:37:19 +0300
+
+xubuntu-meta (0.7) breezy; urgency=low
+
+  * Add firefox, gaim and synaptic
+
+ -- Jani Monoses <jani@email.ro>  Sat,  1 Oct 2005 00:35:53 +0300
+
+xubuntu-meta (0.6) breezy; urgency=low
+
+  * Add rox-filer as alternate file manager
+
+ -- Jani Monoses <jani@email.ro>  Fri, 30 Sep 2005 13:08:01 +0300
+
+xubuntu-meta (0.5) breezy; urgency=low
+
+  * Add xfce4-weather-plugin, xfce4-wavelan-plugin and xfce4-appfinder
+
+ -- Jani Monoses <jani@email.ro>  Thu, 29 Sep 2005 00:26:15 +0300
+
+xubuntu-meta (0.4) breezy; urgency=low
+
+  * Add mousepad (lightweight editor) to the package list
+
+ -- Jani Monoses <jani@email.ro>  Tue, 27 Sep 2005 23:57:00 +0300
+
+xubuntu-meta (0.3) breezy; urgency=low
+
+  * Remove live-i386 and desktop-i386 from the source package as they 
+    are generated at package build time
+
+ --  Jani Monoses <jani@email.ro>  Mon, 26 Sep 2005 21:28:19 +0300
+
+xubuntu-meta (0.2) breezy; urgency=low
+
+  * Provide minimal xubuntu-desktop metapackage depending on X and Xfce
+
+ -- Jani Monoses <jani@email.ro>  Mon, 26 Sep 2005 08:42:25 +0300
+
+xubuntu-meta (0.1) breezy; urgency=low
+
+  * Initial release
+
+ -- Jani Monoses <jani@email.ro>  Tue,  9 Aug 2005 20:52:37 +0300

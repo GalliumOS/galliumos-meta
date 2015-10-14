@@ -1,0 +1,26 @@
+Source: galliumos-meta
+Section: metapackages
+Priority: optional
+Maintainer: GalliumOS Developers <contact@galliumos.org>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.50), germinate (>= 1.18)
+
+Package: galliumos-desktop
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: GalliumOS desktop system
+ This package depends on all of the packages in the GalliumOS desktop system
+ .
+ It is safe to remove this package if some of the desktop system packages are
+ not desired.
+
+Package: galliumos-core
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: GalliumOS core system
+ This package depends on the core set of a functional GalliumOS desktop system
+ .
+ It is safe to remove this package if some of the included packages are
+ not desired.
