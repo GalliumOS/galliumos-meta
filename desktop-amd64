@@ -1,10 +1,11 @@
 alsa-base
 alsa-utils
-arc-theme
+arc-theme-galliumos
 bc
 ca-certificates
 compton
 dmz-cursor-theme
+evince-gtk
 doc-base
 fonts-dejavu-core
 fonts-freefont-ttf
@@ -18,6 +19,7 @@ libasound2-plugins
 libpam-systemd
 libsasl2-modules
 libxp6
+numix-icons-galliumos
 slim
 memtest86+
 openprinting-ppds
@@ -34,9 +36,9 @@ wpasupplicant
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xf86-input-cmt
 xfce4-appfinder
 xfce4-notifyd
-xfce4-mixer
 xfce4-panel
 xfce4-power-manager
 xfce4-session
@@ -54,3 +56,4 @@ galliumos-core
 xubuntu-default-settings
 zenity
 zip
+zram-config

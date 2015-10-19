@@ -1,6 +1,5 @@
 alsa-base
 alsa-utils
-anacron
 bc
 ca-certificates
 compton
@@ -31,6 +30,7 @@ wpasupplicant
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xf86-input-cmt
 xfce4-appfinder
 xfce4-notifyd
 xfce4-mixer
@@ -45,3 +45,4 @@ xterm
 xubuntu-artwork
 xubuntu-default-settings
 zip
+zram-config

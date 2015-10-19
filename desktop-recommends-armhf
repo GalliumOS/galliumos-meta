@@ -14,7 +14,7 @@ cups-filters
 desktop-file-utils
 espeak
 file-roller
-firefox
+chromium-browser
 fonts-droid
 fonts-guru
 fonts-kacst-one
@@ -30,8 +30,9 @@ fonts-takao-pgothic
 fonts-thai-tlwg
 fonts-tibetan-machine
 gimp
-gmusicbrowser
+deadbeef
 gnome-calculator
+gnome-system-tools
 gnumeric
 gstreamer0.10-plugins-base-apps
 gstreamer0.10-pulseaudio
@@ -54,8 +55,6 @@ network-manager-pptp
 network-manager-pptp-gnome
 onboard
 orage
-parole
-pavucontrol
 pidgin
 pidgin-otr
 policykit-desktop-privileges
@@ -69,6 +68,7 @@ printer-driver-sag-gdi
 printer-driver-splix
 ristretto
 simple-scan
+smplayer
 speech-dispatcher
 system-config-printer-gnome
 thunar-archive-plugin
