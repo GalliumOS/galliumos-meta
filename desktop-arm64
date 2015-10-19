@@ -10,6 +10,7 @@ doc-base
 fonts-dejavu-core
 fonts-freefont-ttf
 foomatic-db-compressed-ppds
+humanity-icon-theme
 genisoimage
 ghostscript-x
 gtk2-engines-pixbuf
@@ -39,7 +40,6 @@ xdg-utils
 xf86-input-cmt
 xfce4-appfinder
 xfce4-notifyd
-xfce4-mixer
 xfce4-panel
 xfce4-power-manager
 xfce4-session
