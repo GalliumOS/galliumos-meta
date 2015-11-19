@@ -19,6 +19,7 @@ libxp6
 slim
 memtest86+
 openprinting-ppds
+pasystray
 pm-utils
 printer-driver-pnm2ppa
 rfkill
@@ -33,7 +34,6 @@ xdg-utils
 xf86-input-cmt
 xfce4-appfinder
 xfce4-notifyd
-xfce4-mixer
 xfce4-panel
 xfce4-session
 xfce4-settings

@@ -1,3 +1,9 @@
+galliumos-meta (2.200) vivid; urgency=medium
+
+  * Replaced xfce4-mixer with pasystral
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sun, 18 Nov 2015 22:27:32 -0700
+
 galliumos-meta (2.199) vivid; urgency=medium
 
   * Change for galliumos
