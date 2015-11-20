@@ -1,3 +1,9 @@
+galliumos-meta (2.201) vivid; urgency=medium
+
+  * Removed evince-gtk from desktop and put it in desktop-recommends
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 20 Nov 2015 22:27:32 -0700
+
 galliumos-meta (2.200) vivid; urgency=medium
 
   * Replaced xfce4-mixer with pasystral
