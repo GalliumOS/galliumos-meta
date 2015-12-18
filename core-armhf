@@ -16,7 +16,6 @@ libasound2-plugins
 libpam-systemd
 libsasl2-modules
 libxp6
-slim
 memtest86+
 openprinting-ppds
 pasystray

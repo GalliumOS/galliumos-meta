@@ -30,8 +30,8 @@ fonts-sil-padauk
 fonts-takao-pgothic
 fonts-thai-tlwg
 fonts-tibetan-machine
-gimp
 deadbeef
+galliumos-newtab-chromium
 gnome-calculator
 gnome-system-tools
 gnumeric
@@ -48,6 +48,7 @@ libnotify-bin
 libnss-mdns
 libpam-gnome-keyring
 libxfce4ui-utils
+lxdm
 menulibre
 mousepad
 mugshot
@@ -69,13 +70,10 @@ printer-driver-sag-gdi
 printer-driver-splix
 ristretto
 simple-scan
-smplayer
 speech-dispatcher
 system-config-printer-gnome
 thunar-archive-plugin
 thunar-media-tags-plugin
-thunderbird
-transmission-gtk
 ttf-ancient-fonts-symbola
 ttf-indic-fonts-core
 ttf-ubuntu-font-family
@@ -90,5 +88,6 @@ xfce4-systemload-plugin
 xfce4-taskmanager
 xfce4-weather-plugin
 xfce4-xkb-plugin
+xscreensaver
 xubuntu-community-wallpapers
 xubuntu-docs
