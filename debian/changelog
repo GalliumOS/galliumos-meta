@@ -1,3 +1,14 @@
+galliumos-meta (1.0.14) vivid; urgency=medium
+
+  * Set package version to match provenance
+  * Proper versioning unclear:
+    - pkg is renamed and not really derivative of upstream
+    - history exists in this changelog
+    - alternately, this should be 2.190-0galliumos13
+  * Upstream https://launchpad.net/ubuntu/+source/xubuntu-meta/2.190
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 10 Jan 2016 21:05:33 +0000
+
 galliumos-meta (2.203) vivid; urgency=medium
 
   * Put lxdm in recommends 
