@@ -1,3 +1,9 @@
+galliumos-meta (2.205) vivid; urgency=medium
+
+  * Put hexchat in recommends
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sun, 17 Jan 2016 22:27:32 -0700
+
 galliumos-meta (2.204) vivid; urgency=medium
 
   * Put curl, software-properties-common, fonts-roboto, and gdebi in recommends
