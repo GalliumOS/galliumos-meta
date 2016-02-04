@@ -1,3 +1,9 @@
+galliumos-meta (2.206) vivid-galliumos; urgency=medium
+
+  * Add vlc to desktop-recommends-*
+
+ -- reynhout <reynhout@galliumos.org>  Thu, 04 Feb 2016 22:05:02 +0000
+
 galliumos-meta (2.205) vivid; urgency=medium
 
   * Put hexchat in recommends
