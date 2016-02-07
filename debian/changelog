@@ -1,6 +1,6 @@
 galliumos-meta (2.207) vivid-galliumos; urgency=medium
 
-  * Add ntpd to core-recommends-*
+  * Add ntp to core-recommends-*
 
  -- reynhout <reynhout@galliumos.org>  Sun, 07 Feb 2016 18:31:58 +0000
 
