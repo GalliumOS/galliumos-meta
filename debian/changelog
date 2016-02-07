@@ -1,3 +1,9 @@
+galliumos-meta (2.207) vivid-galliumos; urgency=medium
+
+  * Add ntpd to core-recommends-*
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 07 Feb 2016 18:31:58 +0000
+
 galliumos-meta (2.206) vivid-galliumos; urgency=medium
 
   * Add vlc to desktop-recommends-*
