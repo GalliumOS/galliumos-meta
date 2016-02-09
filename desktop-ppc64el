@@ -19,6 +19,7 @@ libasound2-plugins
 libpam-systemd
 libsasl2-modules
 libxp6
+lxdm
 numix-icons-galliumos
 memtest86+
 openprinting-ppds
@@ -49,6 +50,7 @@ xfdesktop4
 xfwm4
 xkb-data
 xorg
+xscreensaver
 xterm
 xubuntu-artwork
 galliumos-core

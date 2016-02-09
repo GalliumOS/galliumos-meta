@@ -1,3 +1,9 @@
+galliumos-meta (2.208) vivid-galliumos; urgency=medium
+
+  * Moved lxdm and xscreensaver from desktop-recommends to desktop
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 09 Feb 2016 18:31:58 +0000
+
 galliumos-meta (2.207) vivid-galliumos; urgency=medium
 
   * Add ntp to core-recommends-*

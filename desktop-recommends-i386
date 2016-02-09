@@ -52,7 +52,6 @@ libnotify-bin
 libnss-mdns
 libpam-gnome-keyring
 libxfce4ui-utils
-lxdm
 menulibre
 mousepad
 mugshot
@@ -94,6 +93,5 @@ xfce4-systemload-plugin
 xfce4-taskmanager
 xfce4-weather-plugin
 xfce4-xkb-plugin
-xscreensaver
 xubuntu-community-wallpapers
 xubuntu-docs
