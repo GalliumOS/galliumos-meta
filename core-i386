@@ -16,6 +16,7 @@ libasound2-plugins
 libpam-systemd
 libsasl2-modules
 libxp6
+linux-image-galliumos
 memtest86+
 openprinting-ppds
 pasystray
