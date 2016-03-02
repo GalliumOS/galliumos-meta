@@ -1,3 +1,9 @@
+galliumos-meta (2.210) vivid-galliumos; urgency=medium
+
+  * remove galliumos-newtab-chromium from desktop-recommends-*
+
+ -- reynhout <reynhout@galliumos.org>  Wed, 02 Mar 2016 00:25:11 +0000
+
 galliumos-meta (2.209) vivid-galliumos; urgency=medium
 
   * add linux-image-galliumos to core-*
