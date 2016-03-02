@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+
+update-alternatives --set x-cursor-theme /usr/share/icons/DMZ-Black/cursor.theme
+
