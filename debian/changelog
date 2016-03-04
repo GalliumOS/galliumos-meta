@@ -1,3 +1,9 @@
+galliumos-meta (2.212) xenial; urgency=medium
+
+  * Changed version for xenial
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 03 Mar 2016 03:24:06 +0000
+
 galliumos-meta (2.211) xenial; urgency=medium
 
   * default to DMZ-Black/cursor.theme
