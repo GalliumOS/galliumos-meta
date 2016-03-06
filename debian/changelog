@@ -1,4 +1,4 @@
-galliumos-meta (2.211) xenial; urgency=medium
+galliumos-meta (2.211) vivid-galliumos; urgency=medium
 
   * default to DMZ-Black/cursor.theme
 
