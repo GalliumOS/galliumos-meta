@@ -25,6 +25,7 @@ memtest86+
 openprinting-ppds
 pm-utils
 printer-driver-pnm2ppa
+pulseaudio-module-bluetooth
 rfkill
 thunar
 thunar-volman
