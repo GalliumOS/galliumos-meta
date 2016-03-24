@@ -18,7 +18,6 @@ language-selector-gnome
 libasound2-plugins
 libpam-systemd
 libsasl2-modules
-libxp6
 lxdm
 numix-icons-galliumos
 memtest86+

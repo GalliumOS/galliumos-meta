@@ -1,3 +1,16 @@
+galliumos-meta (2.201-galliumos5) xenial; urgency=medium
+
+  * Changed some packages in desktop-recommends
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Mar 2016 03:24:06 +0000
+
+galliumos-meta (2.201-galliumos4) xenial; urgency=medium
+
+  * Changed CrOS driver package name to: xserver-xorg-input-cmt again
+  * Removed libpx9 
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 23 Mar 2016 03:24:06 +0000
+
 galliumos-meta (2.201-galliumos3) xenial; urgency=medium
 
   * Changed CrOS driver package name to: xserver-xorg-input-cmt
