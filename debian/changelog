@@ -1,3 +1,9 @@
+galliumos-meta (2.201-galliumos6) xenon; urgency=medium
+
+  * Add galliumos-default-settings to desktop [amd64 i386]
+
+ -- reynhout <reynhout@galliumos.org>  Fri, 22 Apr 2016 19:30:23 +0000
+
 galliumos-meta (2.201-galliumos5) xenial; urgency=medium
 
   * Changed some packages in desktop-recommends
