@@ -1,3 +1,9 @@
+galliumos-meta (2.201-galliumos7) xenon; urgency=medium
+
+  * Remove libreoffice-* from desktop-recommends [amd64]
+
+ -- reynhout <reynhout@galliumos.org>  Sat, 23 Apr 2016 01:36:01 +0000
+
 galliumos-meta (2.201-galliumos6) xenon; urgency=medium
 
   * Add galliumos-default-settings to desktop [amd64 i386]
