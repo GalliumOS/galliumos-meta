@@ -1,4 +1,4 @@
-galliumos-meta (2.201-galliumos7+dev1) xenon; urgency=medium
+galliumos-meta (2.201-galliumos7+dev2) xenon; urgency=medium
 
   * test Replaces for imagemagick .desktop files
 

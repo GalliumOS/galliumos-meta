@@ -9,7 +9,7 @@ Package: galliumos-desktop
 Architecture: any
 Depends: ${germinate:Depends}, ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Replaces: imagemagick
+Replaces: imagemagick, imagemagick-6.q16
 Description: GalliumOS desktop system
  This package depends on all of the packages in the GalliumOS desktop system
  .
