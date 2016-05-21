@@ -1,3 +1,9 @@
+galliumos-meta (2.201-galliumos9) xenon; urgency=medium
+
+  * Add galliumos-update to desktop-recommends [amd64]
+
+ -- reynhout <reynhout@galliumos.org>  Sat, 21 May 2016 01:52:19 +0000
+
 galliumos-meta (2.201-galliumos8) xenon; urgency=medium
 
   * Add Replaces config for imagemagick .desktop files
