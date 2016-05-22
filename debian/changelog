@@ -1,3 +1,9 @@
+galliumos-meta (2.201-galliumos10) xenon; urgency=medium
+
+  * Add galliumos-artwork to desktop [amd64]
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 22 May 2016 18:34:07 +0000
+
 galliumos-meta (2.201-galliumos9) xenon; urgency=medium
 
   * Add galliumos-update to desktop-recommends [amd64]
