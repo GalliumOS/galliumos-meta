@@ -1,7 +1,7 @@
-galliumos-meta (2.201-galliumos11) xenon; urgency=medium
+galliumos-meta (2.201-galliumos10+dev1) xenon; urgency=medium
 
-  * Force package gtk2-engines-murrine to version 0.98.2-0ubuntu2
-    until upstream text shadows bug is fixed (#265, LP:1598316)
+  * Add gtk2-engines-murrine = 0.98.2-0ubuntu2 until upstream bug
+    is fixed (#265, LP:1598316): desktop [amd64], core [amd64]
 
  -- reynhout <reynhout@galliumos.org>  Tue, 26 Jul 2016 14:54:49 +0000
 
