@@ -10,7 +10,6 @@ fonts-freefont-ttf
 foomatic-db-compressed-ppds
 genisoimage
 ghostscript-x
-gtk2-engines-murrine (= 0.98.2-0ubuntu2)
 gtk2-engines-pixbuf
 inputattach
 libasound2-plugins
