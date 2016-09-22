@@ -1,3 +1,9 @@
+galliumos-meta (2.201-galliumos11) xenon; urgency=medium
+
+  * Add nano to desktop-recommends [amd64]
+
+ -- reynhout <reynhout@galliumos.org>  Thu, 22 Sep 2016 17:07:41 +0000
+
 galliumos-meta (2.201-galliumos10) xenon; urgency=medium
 
   * Add galliumos-artwork to desktop [amd64]
