@@ -1,7 +1,7 @@
 Source: galliumos-meta
 Section: metapackages
 Priority: optional
-Maintainer: GalliumOS Developers <contact@galliumos.org>
+Maintainer: GalliumOS <galliumos@galliumos.org>
 Standards-Version: 3.9.1
 Build-Depends: debhelper (>= 7.0.50), germinate (>= 1.18)
 
