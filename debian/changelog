@@ -1,6 +1,7 @@
-galliumos-meta (2.9901) bismuth; urgency=medium
+galliumos-meta (2.9902) bismuth; urgency=medium
 
-  * Prepare for GalliumOS 3.0
+  * Remove obsolete and abandoned pkgs
+  * Remove exotic fonts
 
  -- reynhout <reynhout@galliumos.org>  Sun, 06 May 2018 07:04:41 +0000
 
