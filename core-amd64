@@ -30,7 +30,6 @@ wpasupplicant
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
-xserver-xorg-input-cmt
 xfce4-appfinder
 xfce4-notifyd
 xfce4-panel
@@ -40,6 +39,7 @@ xfdesktop4
 xfwm4
 xkb-data
 xorg
+xserver-xorg-input-cmt
 xterm
 xubuntu-artwork
 xubuntu-default-settings

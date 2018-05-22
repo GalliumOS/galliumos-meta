@@ -1,7 +1,19 @@
-galliumos-meta (2.9902) bismuth; urgency=medium
+galliumos-meta (2.9903) bismuth; urgency=medium
 
-  * Remove obsolete and abandoned pkgs
-  * Remove exotic fonts
+  * Remove obsolete and abandoned pkgs [amd64]:
+    - bluez-alsa
+    - evince
+    - evince-gtk
+    - file-roller
+  * Add new pkgs [amd64]
+    - atril, firefox, numlockx
+    - xfce4-pulseaudio-plugin
+    - xfce4-statusnotifier-plugin
+    - xfpanel-switch
+    - xserver-xorg-input-all (possibly conflicting)
+    - xserver-xorg-input-synaptics (possibly conflicting)
+  * Remove exotic fonts [amd64]
+  * Update pkg names that have changed [amd64]
 
  -- reynhout <reynhout@galliumos.org>  Sun, 06 May 2018 07:04:41 +0000
 
