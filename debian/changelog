@@ -5,8 +5,13 @@ galliumos-meta (2.9903) bismuth; urgency=medium
     - evince
     - evince-gtk
     - file-roller
+    - hexchat (possibly temporary)
+    - pigdin (possibly temporary)
+    - deadbeef (possibly temporary)
   * Add new pkgs [amd64]
-    - atril, firefox, numlockx
+    - atril
+    - firefox (possibly temporary)
+    - numlockx
     - xfce4-pulseaudio-plugin
     - xfce4-statusnotifier-plugin
     - xfpanel-switch
