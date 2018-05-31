@@ -1,16 +1,12 @@
-galliumos-meta (2.9903) bismuth; urgency=medium
+galliumos-meta (2.9904) bismuth; urgency=medium
 
   * Remove obsolete and abandoned pkgs [amd64]:
     - bluez-alsa
     - evince
     - evince-gtk
     - file-roller
-    - hexchat (possibly temporary)
-    - pigdin (possibly temporary)
-    - deadbeef (possibly temporary)
   * Add new pkgs [amd64]
     - atril
-    - firefox (possibly temporary)
     - numlockx
     - xfce4-pulseaudio-plugin
     - xfce4-statusnotifier-plugin
@@ -19,6 +15,21 @@ galliumos-meta (2.9903) bismuth; urgency=medium
     - xserver-xorg-input-synaptics (possibly conflicting)
   * Remove exotic fonts [amd64]
   * Update pkg names that have changed [amd64]
+  * GalliumOS pkg selection removals [amd64]
+    - TESTING hexchat
+    - TESTING pidgin
+    - TESTING deadbeef
+    - TESTING vlc
+  * GalliumOS pkg selection additions [amd64]
+    - net-tools
+    - TESTING acpid
+    - TESTING xfce4-linelight-plugin
+    - TESTING nautilus
+    - TESTING catfish
+    - TESTING mpv
+    - TESTING audacious
+    - TESTING sxiv
+    - TESTING exfat-utils, exfat-fuse, and ntfs-3g
 
  -- reynhout <reynhout@galliumos.org>  Sun, 06 May 2018 07:04:41 +0000
 
