@@ -1,4 +1,4 @@
-galliumos-meta (2.9904) bismuth; urgency=medium
+galliumos-meta (2.9905) bismuth; urgency=medium
 
   * Remove obsolete and abandoned pkgs [amd64]:
     - bluez-alsa
@@ -23,13 +23,12 @@ galliumos-meta (2.9904) bismuth; urgency=medium
   * GalliumOS pkg selection additions [amd64]
     - net-tools
     - TESTING acpid
-    - TESTING xfce4-linelight-plugin
-    - TESTING nautilus
     - TESTING catfish
     - TESTING mpv
     - TESTING audacious
     - TESTING sxiv
     - TESTING exfat-utils, exfat-fuse, and ntfs-3g
+    - TESTING hfsplus, hfsprogs, hfsutils
 
  -- reynhout <reynhout@galliumos.org>  Sun, 06 May 2018 07:04:41 +0000
 
