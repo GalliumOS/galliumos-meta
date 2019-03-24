@@ -27,6 +27,7 @@ printer-driver-ptouch
 printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
+rng-tools
 ttf-ubuntu-font-family
 xfce4-indicator-plugin
 xfce4-screenshooter
