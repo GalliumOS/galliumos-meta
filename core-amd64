@@ -3,6 +3,7 @@ alsa-utils
 bc
 ca-certificates
 compton
+cryptsetup
 dmz-cursor-theme
 doc-base
 fonts-dejavu-core
