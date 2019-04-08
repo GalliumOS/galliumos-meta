@@ -15,7 +15,6 @@ libnss-mdns
 libpam-gnome-keyring
 make
 network-manager-gnome
-ntp
 pavucontrol
 pcmciautils
 policykit-desktop-privileges
