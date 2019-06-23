@@ -1,4 +1,4 @@
-galliumos-meta (2.9908) bismuth; urgency=medium
+galliumos-meta (2.9909) bismuth; urgency=medium
 
   * Remove obsolete and abandoned pkgs [amd64]:
     - bluez-alsa
@@ -16,24 +16,25 @@ galliumos-meta (2.9908) bismuth; urgency=medium
   * Remove exotic fonts [amd64]
   * Update pkg names that have changed [amd64]
   * GalliumOS pkg selection removals [amd64]
-    - TESTING hexchat
-    - TESTING pidgin
-    - TESTING deadbeef
-    - TESTING vlc
+    - hexchat
+    - pidgin
+    - deadbeef
+    - vlc
   * GalliumOS pkg selection additions [amd64]
     - net-tools
-    - TESTING acpid
-    - TESTING catfish
-    - TESTING mpv
-    - TESTING audacious
-    - TESTING sxiv
-    - TESTING exfat-utils, exfat-fuse, and ntfs-3g
-    - TESTING hfsplus, hfsprogs, hfsutils
-    - TESTING appgrid
-    - TESTING rng-tools
+    - acpid
+    - catfish
+    - mpv
+    - audacious
+    - sxiv
+    - exfat-utils, exfat-fuse, and ntfs-3g
+    - hfsplus, hfsprogs, hfsutils
+    - appgrid
+    - rng-tools
   * Add cryptsetup to core [amd64]
   * Remove ntp from recommends [amd64]
   * Add ntpdate to recommends [amd64]
+  * Remove gnome-system-tools from recommends [amd64]
 
  -- reynhout <reynhout@galliumos.org>  Mon, 08 Apr 2019 00:48:47 +0000
 
