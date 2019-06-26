@@ -1,4 +1,4 @@
-galliumos-meta (2.9909) bismuth; urgency=medium
+galliumos-meta (2.9910) bismuth; urgency=medium
 
   * Remove obsolete and abandoned pkgs [amd64]:
     - bluez-alsa
@@ -34,9 +34,8 @@ galliumos-meta (2.9909) bismuth; urgency=medium
   * Add cryptsetup to core [amd64]
   * Remove ntp from recommends [amd64]
   * Add ntpdate to recommends [amd64]
-  * Remove gnome-system-tools from recommends [amd64]
 
- -- reynhout <reynhout@galliumos.org>  Mon, 08 Apr 2019 00:48:47 +0000
+ -- reynhout <reynhout@galliumos.org>  Wed, 26 Jun 2019 08:17:03 +0000
 
 galliumos-meta (2.201-galliumos11) xenon; urgency=medium
 
