@@ -1,4 +1,4 @@
-galliumos-meta (2.9910) bismuth; urgency=medium
+galliumos-meta (3.0) bismuth; urgency=medium
 
   * Remove obsolete and abandoned pkgs [amd64]:
     - bluez-alsa
